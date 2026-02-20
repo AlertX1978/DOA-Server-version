@@ -1,0 +1,3230 @@
+[
+    {
+        "@odata.etag": "\"14\"",
+        "ItemInternalId": "2157",
+        "ID": 2157,
+        "Title": "RFQ Email Dated 30 Dec 2026",
+        "Country": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 23,
+            "Value": "TUNISIA"
+        },
+        "Country#Id": 23,
+        "PSL": [
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+                "Id": 2,
+                "Value": "CTSS"
+            },
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+                "Id": 4,
+                "Value": "CEMENTING"
+            }
+        ],
+        "PSL@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference)",
+        "PSL#Id": [
+            2,
+            4
+        ],
+        "PSL#Id@odata.type": "#Collection(Int64)",
+        "Cust_x002e_Ref_x002e_No": "B2026-CTS02157",
+        "CustomerName": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 485,
+            "Value": "EXCELLENCE OILFIELD SERVICES"
+        },
+        "CustomerName#Id": 485,
+        "Customer_x0020_Name_x003a__x0020": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 485,
+            "Value": "EOS"
+        },
+        "Customer_x0020_Name_x003a__x0020#Id": 485,
+        "DOA_x0020_Final_x0020_Approver": "",
+        "OpportunityType": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 3,
+            "Value": "BUDGET PROPOSAL"
+        },
+        "OpportunityType#Id": 3,
+        "TypeofTender": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "Technical & Commercial"
+        },
+        "TypeofTender#Id": 2,
+        "Category": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 4,
+            "Value": "Not Applicable"
+        },
+        "Category#Id": 4,
+        "AssignedPerson": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|spallath@tq.com",
+            "DisplayName": "Sachdev Pallath",
+            "Email": "spallath@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=spallath@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Senior Commercial Analyst"
+        },
+        "AssignedPerson#Claims": "i:0#.f|membership|spallath@tq.com",
+        "TenderDescription": "Provision of pumping cementing, acidizing and coiled tubing &N2 pumping services for drilling and workover activities on call out basis for 3 Years",
+        "TenderStatus": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Bid Preparation"
+        },
+        "TenderStatus#Id": 0,
+        "DateReceived": "2025-12-30",
+        "SubmissionDate": "2026-01-29",
+        "Year": "2026",
+        "QuotedValue_x0028_USD_x0029_": 0,
+        "CAPEXValue_x0028_USD_x0029_": 0,
+        "GrossMargin_x0025_": 0,
+        "EBITDA_x0025_": 0,
+        "EBIT_x0025_": 0,
+        "NetProfit_x0025_": 0,
+        "ROI_x0025_": 0,
+        "WinningProbability": 0,
+        "Bid_x0020_Expiry_x0020_Calculate": "2026-01-28T20:00:00Z",
+        "BidValidity": "2026-01-25",
+        "Incumbent": "No Incumbent",
+        "EVP_x002f_CEOApproval": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 1,
+            "Value": "COO"
+        },
+        "EVP_x002f_CEOApproval#Id": 1,
+        "TenderReviewStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Not yet started"
+        },
+        "TenderReviewStage#Id": 0,
+        "ApprovalStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Not yet started"
+        },
+        "ApprovalStage#Id": 0,
+        "TenderWorkingGroup": [],
+        "TenderWorkingGroup@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser)",
+        "TenderWorkingGroup#Claims": [],
+        "TenderWorkingGroup#Claims@odata.type": "#Collection(String)",
+        "EstimatedContractValue_x0028_USD0": 3000000,
+        "EstimatedAnnualRevenue_x0028_USD": 1000000,
+        "EstimatedCAPEXValue_x0028_USD_x0": 0,
+        "FolderLink": "https://taqa1.sharepoint.com/:f:/s/AMPS-AlMansooriCommercial/IgAT5dGUiHB6ToeAgMDFscraAWFAYh8iOI-NruSy-8euK80?e=EJoCuB",
+        "Created": "2026-01-13T05:21:01Z",
+        "Author": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|spallath@tq.com",
+            "DisplayName": "Sachdev Pallath",
+            "Email": "spallath@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=spallath@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Senior Commercial Analyst"
+        },
+        "Author#Claims": "i:0#.f|membership|spallath@tq.com",
+        "Modified": "2026-01-22T06:01:57Z",
+        "Editor": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|spallath@tq.com",
+            "DisplayName": "Sachdev Pallath",
+            "Email": "spallath@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=spallath@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Senior Commercial Analyst"
+        },
+        "Editor#Claims": "i:0#.f|membership|spallath@tq.com",
+        "ESTIMATED_REQUIRED": false,
+        "AREA": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "AFI"
+        },
+        "AREA#Id": 2,
+        "{Identifier}": "Lists%252fTender%2bStatus%2bTracker%252f2157_.000",
+        "{IsFolder}": false,
+        "{Thumbnail}": {
+            "Large": null,
+            "Medium": null,
+            "Small": null
+        },
+        "{Link}": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/listform.aspx?PageType=4&ListId=c1ae7e37%2D1026%2D45cb%2D9f45%2D631016eb899e&ID=2157&ContentTypeID=0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{Name}": "RFQ Email Dated 30 Dec 2026",
+        "{FilenameWithExtension}": "RFQ Email Dated 30 Dec 2026",
+        "{Path}": "Lists/Tender Status Tracker/",
+        "{FullPath}": "Lists/Tender Status Tracker/2157_.000",
+        "{ContentType}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+            "Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+            "Name": "Item"
+        },
+        "{ContentType}#Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{HasAttachments}": false,
+        "{VersionNumber}": "14.0",
+        "{ApprovalStatus}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedApprovalStatus",
+            "Value": 0,
+            "Label": "Not submitted"
+        },
+        "{ApprovalStatus}#Value": 0
+    },
+    {
+        "@odata.etag": "\"11\"",
+        "ItemInternalId": "2173",
+        "ID": 2173,
+        "Title": " PR 3001196182 RFQ 6000188805 ",
+        "Country": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 1,
+            "Value": "KSA"
+        },
+        "Country#Id": 1,
+        "PSL": [
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+                "Id": 2,
+                "Value": "CTSS"
+            }
+        ],
+        "PSL@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference)",
+        "PSL#Id": [
+            2
+        ],
+        "PSL#Id@odata.type": "#Collection(Int64)",
+        "Cust_x002e_Ref_x002e_No": "R2026-CTS02173",
+        "CustomerName": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 52,
+            "Value": "SAUDI ARAMCO"
+        },
+        "CustomerName#Id": 52,
+        "Customer_x0020_Name_x003a__x0020": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 52,
+            "Value": "SAUDI ARAMCO"
+        },
+        "Customer_x0020_Name_x003a__x0020#Id": 52,
+        "DOA_x0020_Final_x0020_Approver": "VP Marketing & Commercial",
+        "OpportunityType": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 1,
+            "Value": "RFQ"
+        },
+        "OpportunityType#Id": 1,
+        "TypeofTender": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "Technical & Commercial"
+        },
+        "TypeofTender#Id": 2,
+        "Category": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 3,
+            "Value": "TBA"
+        },
+        "Category#Id": 3,
+        "AssignedPerson": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|ashaiksha@tq.com",
+            "DisplayName": "Abdul Rahim Shaiksha",
+            "Email": "ashaiksha@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=ashaiksha@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Commercial Specialist"
+        },
+        "AssignedPerson#Claims": "i:0#.f|membership|ashaiksha@tq.com",
+        "TenderDescription": "Nitrogen Services at NAGPD.",
+        "Remarks": "1 year with option to extend",
+        "TenderStatus": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "Under Initial Approval"
+        },
+        "TenderStatus#Id": 2,
+        "DateReceived": "2026-01-13",
+        "SubmissionDate": "2026-01-29",
+        "Year": "2026",
+        "QuotedValue_x0028_USD_x0029_": 0,
+        "CAPEXValue_x0028_USD_x0029_": 0,
+        "GrossMargin_x0025_": 0,
+        "EBITDA_x0025_": 0,
+        "EBIT_x0025_": 0,
+        "NetProfit_x0025_": 0,
+        "ROI_x0025_": 0,
+        "WinningProbability": 0,
+        "BidValidity0": 180,
+        "Bid_x0020_Expiry_x0020_Calculate": "2026-07-27T20:00:00Z",
+        "BidValidity": "2026-07-27",
+        "Incumbent": "No",
+        "EVP_x002f_CEOApproval": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "PSL VP"
+        },
+        "EVP_x002f_CEOApproval#Id": 0,
+        "TenderReviewStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 5,
+            "Value": "Ongoing"
+        },
+        "TenderReviewStage#Id": 5,
+        "ApprovalStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Not yet started"
+        },
+        "ApprovalStage#Id": 0,
+        "TenderWorkingGroup": [
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|sshiraz@tq.com",
+                "DisplayName": "Sainudeen Shiraz",
+                "Email": "sshiraz@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=sshiraz@tq.com",
+                "Department": "Commercial & Sales",
+                "JobTitle": "Commercial Lead"
+            },
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|faljabri@tq.com",
+                "DisplayName": "Faisal Al Jabri",
+                "Email": "faljabri@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=faljabri@tq.com",
+                "Department": "Commercial & Sales",
+                "JobTitle": "Senior Commercial Manager"
+            },
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|ashaiksha@tq.com",
+                "DisplayName": "Abdul Rahim Shaiksha",
+                "Email": "ashaiksha@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=ashaiksha@tq.com",
+                "Department": "Commercial & Sales",
+                "JobTitle": "Commercial Specialist"
+            },
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|kumail.zubail@tq.com",
+                "DisplayName": "Kumail Al Zubail",
+                "Email": "kumail.zubail@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kumail.zubail@tq.com",
+                "Department": "Well Intervention & Stimulation",
+                "JobTitle": "Senior Technical & Sales Manager"
+            },
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|kyoussef@tq.com",
+                "DisplayName": "Karim Youssef",
+                "Email": "kyoussef@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kyoussef@tq.com",
+                "Department": "Commercial & Sales",
+                "JobTitle": "Commercial Manager"
+            },
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|salhalwaki@tq.com",
+                "DisplayName": "Shafeeq Al-Halwaki",
+                "Email": "salhalwaki@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=salhalwaki@tq.com",
+                "Department": "Country Operation Support",
+                "JobTitle": "Sales & Business Development Director"
+            },
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|mohomed.nawfel@tq.com",
+                "DisplayName": "Mohomed Imran Nawfel",
+                "Email": "mohomed.nawfel@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=mohomed.nawfel@tq.com",
+                "Department": "Well Intervention and Stimulation",
+                "JobTitle": "Frac Finance Lead"
+            }
+        ],
+        "TenderWorkingGroup@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser)",
+        "TenderWorkingGroup#Claims": [
+            "i:0#.f|membership|sshiraz@tq.com",
+            "i:0#.f|membership|faljabri@tq.com",
+            "i:0#.f|membership|ashaiksha@tq.com",
+            "i:0#.f|membership|kumail.zubail@tq.com",
+            "i:0#.f|membership|kyoussef@tq.com",
+            "i:0#.f|membership|salhalwaki@tq.com",
+            "i:0#.f|membership|mohomed.nawfel@tq.com"
+        ],
+        "TenderWorkingGroup#Claims@odata.type": "#Collection(String)",
+        "EstimatedContractValue_x0028_USD0": 0,
+        "EstimatedAnnualRevenue_x0028_USD": 0,
+        "EstimatedCAPEXValue_x0028_USD_x0": 0,
+        "EstimatedContractValue_x0028_USD": "Waiting for Clarification response",
+        "EstimatedYearlyRevenue_x0028_USD": "Waiting for Clarification response",
+        "CAPEXInformation": "Waiting for Clarification response",
+        "FolderLink": "https://taqa1.sharepoint.com/:f:/s/AMPS-AlMansooriCommercial/IgAW5hkrmR17S5KAW-GCVeb9AREtKnKHmgn9WOaMvS-9WKo",
+        "Bidding_x0020_Entity": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 35,
+            "Value": "TAQA Well Services Single Shareholder Company"
+        },
+        "Bidding_x0020_Entity#Id": 35,
+        "BidCurrency": "SAR",
+        "Created": "2026-01-16T11:14:38Z",
+        "Author": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|ashaiksha@tq.com",
+            "DisplayName": "Abdul Rahim Shaiksha",
+            "Email": "ashaiksha@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=ashaiksha@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Commercial Specialist"
+        },
+        "Author#Claims": "i:0#.f|membership|ashaiksha@tq.com",
+        "Modified": "2026-01-16T12:11:32Z",
+        "Editor": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|tenders@tq.com",
+            "DisplayName": "TWS Contracts Department",
+            "Email": "tenders@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=tenders@tq.com",
+            "Department": "Commercial & Contract",
+            "JobTitle": null
+        },
+        "Editor#Claims": "i:0#.f|membership|tenders@tq.com",
+        "ESTIMATED_REQUIRED": false,
+        "AREA": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "NME"
+        },
+        "AREA#Id": 0,
+        "{Identifier}": "Lists%252fTender%2bStatus%2bTracker%252f2173_.000",
+        "{IsFolder}": false,
+        "{Thumbnail}": {
+            "Large": null,
+            "Medium": null,
+            "Small": null
+        },
+        "{Link}": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/listform.aspx?PageType=4&ListId=c1ae7e37%2D1026%2D45cb%2D9f45%2D631016eb899e&ID=2173&ContentTypeID=0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{Name}": " PR 3001196182 RFQ 6000188805 ",
+        "{FilenameWithExtension}": " PR 3001196182 RFQ 6000188805 ",
+        "{Path}": "Lists/Tender Status Tracker/",
+        "{FullPath}": "Lists/Tender Status Tracker/2173_.000",
+        "{ContentType}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+            "Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+            "Name": "Item"
+        },
+        "{ContentType}#Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{HasAttachments}": false,
+        "{VersionNumber}": "11.0",
+        "{ApprovalStatus}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedApprovalStatus",
+            "Value": 0,
+            "Label": "Not submitted"
+        },
+        "{ApprovalStatus}#Value": 0
+    },
+    {
+        "@odata.etag": "\"4\"",
+        "ItemInternalId": "2180",
+        "ID": 2180,
+        "Title": "EMAIL -19-01-2026 SIES & H&P",
+        "Country": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 1,
+            "Value": "KSA"
+        },
+        "Country#Id": 1,
+        "PSL": [
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+                "Id": 6,
+                "Value": "INSPECTION"
+            }
+        ],
+        "PSL@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference)",
+        "PSL#Id": [
+            6
+        ],
+        "PSL#Id@odata.type": "#Collection(Int64)",
+        "Cust_x002e_Ref_x002e_No": "R2026-INS02180",
+        "CustomerName": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 529,
+            "Value": "H&P DRILLING COMPANY(KSA)"
+        },
+        "CustomerName#Id": 529,
+        "Customer_x0020_Name_x003a__x0020": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 529,
+            "Value": "H&P KSA"
+        },
+        "Customer_x0020_Name_x003a__x0020#Id": 529,
+        "DOA_x0020_Final_x0020_Approver": "VP Marketing & Commercial",
+        "OpportunityType": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 1,
+            "Value": "RFQ"
+        },
+        "OpportunityType#Id": 1,
+        "TypeofTender": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "Technical & Commercial"
+        },
+        "TypeofTender#Id": 2,
+        "Category": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 4,
+            "Value": "Not Applicable"
+        },
+        "Category#Id": 4,
+        "AssignedPerson": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|rmathew@tq.com",
+            "DisplayName": "Roby Mathew",
+            "Email": "rmathew@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=rmathew@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Senior Commercial Analyst"
+        },
+        "AssignedPerson#Claims": "i:0#.f|membership|rmathew@tq.com",
+        "TenderDescription": "Monthly LEI & MPI Services (Both Above & Below the Hook)",
+        "Remarks": "CALLOUT BASIS ",
+        "TenderStatus": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Bid Preparation"
+        },
+        "TenderStatus#Id": 0,
+        "DateReceived": "2026-01-19",
+        "SubmissionDate": "2026-01-29",
+        "Year": "2026",
+        "QuotedValue_x0028_USD_x0029_": 0,
+        "CAPEXValue_x0028_USD_x0029_": 0,
+        "GrossMargin_x0025_": 0,
+        "EBITDA_x0025_": 0,
+        "EBIT_x0025_": 0,
+        "NetProfit_x0025_": 0,
+        "ROI_x0025_": 0,
+        "WinningProbability": 0,
+        "BidValidity0": 90,
+        "Bid_x0020_Expiry_x0020_Calculate": "2026-04-28T20:00:00Z",
+        "BidValidity": "2026-04-28",
+        "Incumbent": "NO",
+        "EVP_x002f_CEOApproval": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "VP Marketing & Commercial"
+        },
+        "EVP_x002f_CEOApproval#Id": 2,
+        "TenderReviewStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Not yet started"
+        },
+        "TenderReviewStage#Id": 0,
+        "ApprovalStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Not yet started"
+        },
+        "ApprovalStage#Id": 0,
+        "TenderWorkingGroup": [],
+        "TenderWorkingGroup@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser)",
+        "TenderWorkingGroup#Claims": [],
+        "TenderWorkingGroup#Claims@odata.type": "#Collection(String)",
+        "EstimatedContractValue_x0028_USD0": 180000,
+        "EstimatedAnnualRevenue_x0028_USD": 180000,
+        "EstimatedCAPEXValue_x0028_USD_x0": 0,
+        "EstimatedContractValue_x0028_USD": "Considering 6 Rigs @ 30 K per year",
+        "CAPEXInformation": "NIL ",
+        "FolderLink": "https://taqa1.sharepoint.com/:f:/s/AMPS-AlMansooriCommercial/IgDHKyzDoU6VTq2Tb6Da89mbAYkUezVq_EMIjqwVoGvKXyk",
+        "Bidding_x0020_Entity": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 14,
+            "Value": "AlMansoori Petroleum Services Co.Ltd"
+        },
+        "Bidding_x0020_Entity#Id": 14,
+        "BidCurrency": "SAR",
+        "Created": "2026-01-20T11:05:24Z",
+        "Author": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|rmathew@tq.com",
+            "DisplayName": "Roby Mathew",
+            "Email": "rmathew@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=rmathew@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Senior Commercial Analyst"
+        },
+        "Author#Claims": "i:0#.f|membership|rmathew@tq.com",
+        "Modified": "2026-01-21T11:05:57Z",
+        "Editor": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|tenders@tq.com",
+            "DisplayName": "TWS Contracts Department",
+            "Email": "tenders@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=tenders@tq.com",
+            "Department": "Commercial & Contract",
+            "JobTitle": null
+        },
+        "Editor#Claims": "i:0#.f|membership|tenders@tq.com",
+        "ESTIMATED_REQUIRED": true,
+        "{Identifier}": "Lists%252fTender%2bStatus%2bTracker%252f2180_.000",
+        "{IsFolder}": false,
+        "{Thumbnail}": {
+            "Large": null,
+            "Medium": null,
+            "Small": null
+        },
+        "{Link}": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/listform.aspx?PageType=4&ListId=c1ae7e37%2D1026%2D45cb%2D9f45%2D631016eb899e&ID=2180&ContentTypeID=0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{Name}": "EMAIL -19-01-2026 SIES & H&P",
+        "{FilenameWithExtension}": "EMAIL -19-01-2026 SIES & H&P",
+        "{Path}": "Lists/Tender Status Tracker/",
+        "{FullPath}": "Lists/Tender Status Tracker/2180_.000",
+        "{ContentType}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+            "Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+            "Name": "Item"
+        },
+        "{ContentType}#Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{HasAttachments}": false,
+        "{VersionNumber}": "4.0",
+        "{ApprovalStatus}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedApprovalStatus",
+            "Value": 0,
+            "Label": "Not submitted"
+        },
+        "{ApprovalStatus}#Value": 0
+    },
+    {
+        "@odata.etag": "\"4\"",
+        "ItemInternalId": "2197",
+        "ID": 2197,
+        "Title": "Amendment 1 - HKN-SAR-CON-2025-008",
+        "Country": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 11,
+            "Value": "IRAQ-KURDISTAN"
+        },
+        "Country#Id": 11,
+        "PSL": [
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+                "Id": 1,
+                "Value": "SWT"
+            }
+        ],
+        "PSL@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference)",
+        "PSL#Id": [
+            1
+        ],
+        "PSL#Id@odata.type": "#Collection(Int64)",
+        "ParentOpportunityLink": "https://taqa1.sharepoint.com/:f:/s/AMPS-AlMansooriCommercial/EpKJ-ylY-GhHppAWoFWdzPwBdCT4j21FP9bLWiGhb6B0GQ?e=RnjSEL",
+        "Cust_x002e_Ref_x002e_No": "C2026-SWT02197",
+        "CustomerName": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 185,
+            "Value": "HKN ENERGY LTD"
+        },
+        "CustomerName#Id": 185,
+        "Customer_x0020_Name_x003a__x0020": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 185,
+            "Value": "HKN ENERGY"
+        },
+        "Customer_x0020_Name_x003a__x0020#Id": 185,
+        "DOA_x0020_Final_x0020_Approver": "",
+        "OpportunityType": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 8,
+            "Value": "CONTRACT AMEND"
+        },
+        "OpportunityType#Id": 8,
+        "TypeofTender": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 1,
+            "Value": "Commercial"
+        },
+        "TypeofTender#Id": 1,
+        "Category": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 4,
+            "Value": "Not Applicable"
+        },
+        "Category#Id": 4,
+        "AssignedPerson": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|mvallupparambil@tq.com",
+            "DisplayName": "Muhammed Shafeek",
+            "Email": "mvallupparambil@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=mvallupparambil@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Commercial Specialist"
+        },
+        "AssignedPerson#Claims": "i:0#.f|membership|mvallupparambil@tq.com",
+        "TenderDescription": "PROVISION OF SURFACE WELL TESTING EQUIPMENT, PERSONNEL AND SERVICES",
+        "Remarks": "As per the Original contract",
+        "TenderStatus": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "Under Initial Approval"
+        },
+        "TenderStatus#Id": 2,
+        "DateReceived": "2026-01-24",
+        "SubmissionDate": "2026-01-29",
+        "Year": "2026",
+        "QuotedValue_x0028_USD_x0029_": 0,
+        "CAPEXValue_x0028_USD_x0029_": 0,
+        "GrossMargin_x0025_": 0,
+        "EBITDA_x0025_": 0,
+        "EBIT_x0025_": 0,
+        "NetProfit_x0025_": 0,
+        "ROI_x0025_": 0,
+        "WinningProbability": 0,
+        "Bid_x0020_Expiry_x0020_Calculate": "2026-01-28T20:00:00Z",
+        "BidValidity": "2026-01-28",
+        "Incumbent": "TAQA",
+        "EVP_x002f_CEOApproval": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "VP Marketing & Commercial"
+        },
+        "EVP_x002f_CEOApproval#Id": 2,
+        "TenderReviewStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Not yet started"
+        },
+        "TenderReviewStage#Id": 0,
+        "ApprovalStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Not yet started"
+        },
+        "ApprovalStage#Id": 0,
+        "TenderWorkingGroup": [],
+        "TenderWorkingGroup@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser)",
+        "TenderWorkingGroup#Claims": [],
+        "TenderWorkingGroup#Claims@odata.type": "#Collection(String)",
+        "EstimatedContractValue_x0028_USD0": 0,
+        "EstimatedAnnualRevenue_x0028_USD": 0,
+        "EstimatedCAPEXValue_x0028_USD_x0": 0,
+        "EstimatedContractValue_x0028_USD": "No change in Contract Value",
+        "EstimatedYearlyRevenue_x0028_USD": "Original Contract value remains same",
+        "Bidding_x0020_Entity": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 44,
+            "Value": "Al Mansoori Petroleum Services - Sole Proprietorship LLC"
+        },
+        "Bidding_x0020_Entity#Id": 44,
+        "BidCurrency": "USD",
+        "Created": "2026-01-26T05:33:12Z",
+        "Author": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|amakkar@tq.com",
+            "DisplayName": "ALI NEROTHUPADIKAL MAKKAR",
+            "Email": "amakkar@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=amakkar@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Commercial Analyst"
+        },
+        "Author#Claims": "i:0#.f|membership|amakkar@tq.com",
+        "Modified": "2026-01-26T07:42:09Z",
+        "Editor": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|amakkar@tq.com",
+            "DisplayName": "ALI NEROTHUPADIKAL MAKKAR",
+            "Email": "amakkar@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=amakkar@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Commercial Analyst"
+        },
+        "Editor#Claims": "i:0#.f|membership|amakkar@tq.com",
+        "ESTIMATED_REQUIRED": false,
+        "{Identifier}": "Lists%252fTender%2bStatus%2bTracker%252f2197_.000",
+        "{IsFolder}": false,
+        "{Thumbnail}": {
+            "Large": null,
+            "Medium": null,
+            "Small": null
+        },
+        "{Link}": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/listform.aspx?PageType=4&ListId=c1ae7e37%2D1026%2D45cb%2D9f45%2D631016eb899e&ID=2197&ContentTypeID=0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{Name}": "Amendment 1 - HKN-SAR-CON-2025-008",
+        "{FilenameWithExtension}": "Amendment 1 - HKN-SAR-CON-2025-008",
+        "{Path}": "Lists/Tender Status Tracker/",
+        "{FullPath}": "Lists/Tender Status Tracker/2197_.000",
+        "{ContentType}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+            "Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+            "Name": "Item"
+        },
+        "{ContentType}#Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{HasAttachments}": false,
+        "{VersionNumber}": "4.0",
+        "{ApprovalStatus}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedApprovalStatus",
+            "Value": 0,
+            "Label": "Not submitted"
+        },
+        "{ApprovalStatus}#Value": 0
+    },
+    {
+        "@odata.etag": "\"37\"",
+        "ItemInternalId": "2108",
+        "ID": 2108,
+        "Title": "GeM Tender No. GEM/2025/B/6968401",
+        "Country": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 6,
+            "Value": "INDIA"
+        },
+        "Country#Id": 6,
+        "PSL": [
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+                "Id": 3,
+                "Value": "DDS"
+            }
+        ],
+        "PSL@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference)",
+        "PSL#Id": [
+            3
+        ],
+        "PSL#Id@odata.type": "#Collection(Int64)",
+        "Cust_x002e_Ref_x002e_No": "T2026-DDS02108",
+        "CustomerName": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 278,
+            "Value": "OIL AND NATURAL GAS CORPORATION (ONGC)"
+        },
+        "CustomerName#Id": 278,
+        "Customer_x0020_Name_x003a__x0020": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 278,
+            "Value": "ONGC"
+        },
+        "Customer_x0020_Name_x003a__x0020#Id": 278,
+        "DOA_x0020_Final_x0020_Approver": "ExCom",
+        "OpportunityType": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "TENDER"
+        },
+        "OpportunityType#Id": 0,
+        "TypeofTender": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "Technical & Commercial"
+        },
+        "TypeofTender#Id": 2,
+        "Category": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "T1"
+        },
+        "Category#Id": 0,
+        "AssignedPerson": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|sismail@tq.com",
+            "DisplayName": "Sherif Allam Ali Mohamed Ismail",
+            "Email": "sismail@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=sismail@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Contract Performance Manager"
+        },
+        "AssignedPerson#Claims": "i:0#.f|membership|sismail@tq.com",
+        "TenderDescription": "Hiring of Directional Drilling Services for various onshore work centres of ONGC for period of three years",
+        "Remarks": "3 years",
+        "TenderStatus": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "Under Initial Approval"
+        },
+        "TenderStatus#Id": 2,
+        "DateReceived": "2025-12-12",
+        "SubmissionDate": "2026-01-30",
+        "Year": "2026",
+        "TypeofAward": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 1,
+            "Value": "Multiple"
+        },
+        "TypeofAward#Id": 1,
+        "QuotedValue_x0028_USD_x0029_": 19098000,
+        "CAPEXValue_x0028_USD_x0029_": 3708550,
+        "GrossMargin_x0025_": 26.7,
+        "EBITDA_x0025_": 30.3,
+        "EBIT_x0025_": 16,
+        "NetProfit_x0025_": 9.5,
+        "ROI_x0025_": 15,
+        "WinningProbability": 0.8,
+        "BidValidity0": 90,
+        "Bid_x0020_Expiry_x0020_Calculate": "2026-04-29T20:00:00Z",
+        "BidValidity": "2026-04-01",
+        "Incumbent": "taqa, Slb, Baker, Hall",
+        "EVP_x002f_CEOApproval": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 4,
+            "Value": "ExComm"
+        },
+        "EVP_x002f_CEOApproval#Id": 4,
+        "TenderReviewStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 6,
+            "Value": "Approved"
+        },
+        "TenderReviewStage#Id": 6,
+        "ApprovalStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 3,
+            "Value": "PNL Review Completed"
+        },
+        "ApprovalStage#Id": 3,
+        "TenderWorkingGroup": [
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|faljabri@tq.com",
+                "DisplayName": "Faisal Al Jabri",
+                "Email": "faljabri@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=faljabri@tq.com",
+                "Department": "Commercial & Sales",
+                "JobTitle": "Senior Commercial Manager"
+            },
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|sksharma@tq.com",
+                "DisplayName": "Saurabh Kumar Sharma",
+                "Email": "sksharma@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=sksharma@tq.com",
+                "Department": "Drilling Services",
+                "JobTitle": "Operations Manager"
+            }
+        ],
+        "TenderWorkingGroup@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser)",
+        "TenderWorkingGroup#Claims": [
+            "i:0#.f|membership|faljabri@tq.com",
+            "i:0#.f|membership|sksharma@tq.com"
+        ],
+        "TenderWorkingGroup#Claims@odata.type": "#Collection(String)",
+        "EstimatedContractValue_x0028_USD0": 17000000,
+        "EstimatedAnnualRevenue_x0028_USD": 5500000,
+        "EstimatedCAPEXValue_x0028_USD_x0": 5500000,
+        "EstimatedContractValue_x0028_USD": "Gem Tender (GEM/2025/B/6968401) for 8 Kits (6 Regular and 2 Callouts) or 3 Years . All the kits are in single group. ",
+        "EstimatedYearlyRevenue_x0028_USD": "Best estimate",
+        "CAPEXInformation": "PSL VP needs to confirm as he is trying to get some assets earmarked for this project from the region.",
+        "FolderLink": "https://taqa1.sharepoint.com/:f:/s/AMPS-AlMansooriCommercial/IgDhw5Ki5NUvRrpq0X_yjBMKAb0gNo8ejakpCAk-Ac7WOIs",
+        "Bidding_x0020_Entity": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 19,
+            "Value": "AlMansoori Production Services India Pvt.Ltd"
+        },
+        "Bidding_x0020_Entity#Id": 19,
+        "BidCurrency": "INDIAN RUPEES",
+        "Created": "2025-12-12T16:35:58Z",
+        "Author": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|sismail@tq.com",
+            "DisplayName": "Sherif Allam Ali Mohamed Ismail",
+            "Email": "sismail@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=sismail@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Contract Performance Manager"
+        },
+        "Author#Claims": "i:0#.f|membership|sismail@tq.com",
+        "Modified": "2026-01-26T07:49:44Z",
+        "Editor": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|tenders@tq.com",
+            "DisplayName": "TWS Contracts Department",
+            "Email": "tenders@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=tenders@tq.com",
+            "Department": "Commercial & Contract",
+            "JobTitle": null
+        },
+        "Editor#Claims": "i:0#.f|membership|tenders@tq.com",
+        "ESTIMATED_REQUIRED": false,
+        "AREA": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 1,
+            "Value": "SME"
+        },
+        "AREA#Id": 1,
+        "{Identifier}": "Lists%252fTender%2bStatus%2bTracker%252f2108_.000",
+        "{IsFolder}": false,
+        "{Thumbnail}": {
+            "Large": null,
+            "Medium": null,
+            "Small": null
+        },
+        "{Link}": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/listform.aspx?PageType=4&ListId=c1ae7e37%2D1026%2D45cb%2D9f45%2D631016eb899e&ID=2108&ContentTypeID=0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{Name}": "GeM Tender No. GEM/2025/B/6968401",
+        "{FilenameWithExtension}": "GeM Tender No. GEM/2025/B/6968401",
+        "{Path}": "Lists/Tender Status Tracker/",
+        "{FullPath}": "Lists/Tender Status Tracker/2108_.000",
+        "{ContentType}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+            "Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+            "Name": "Item"
+        },
+        "{ContentType}#Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{HasAttachments}": false,
+        "{VersionNumber}": "37.0",
+        "{ApprovalStatus}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedApprovalStatus",
+            "Value": 0,
+            "Label": "Not submitted"
+        },
+        "{ApprovalStatus}#Value": 0
+    },
+    {
+        "@odata.etag": "\"22\"",
+        "ItemInternalId": "2192",
+        "ID": 2192,
+        "Title": "Email Jan 20 2026",
+        "Country": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 3,
+            "Value": "EGYPT"
+        },
+        "Country#Id": 3,
+        "PSL": [
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+                "Id": 3,
+                "Value": "DDS"
+            }
+        ],
+        "PSL@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference)",
+        "PSL#Id": [
+            3
+        ],
+        "PSL#Id@odata.type": "#Collection(Int64)",
+        "Cust_x002e_Ref_x002e_No": "F2026-DDS02192",
+        "CustomerName": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 658,
+            "Value": "PETROSINAI PETROLEUM COMPANY"
+        },
+        "CustomerName#Id": 658,
+        "Customer_x0020_Name_x003a__x0020": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 658,
+            "Value": "PETROSINAI"
+        },
+        "Customer_x0020_Name_x003a__x0020#Id": 658,
+        "DOA_x0020_Final_x0020_Approver": "",
+        "OpportunityType": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 4,
+            "Value": "FARM OUT"
+        },
+        "OpportunityType#Id": 4,
+        "TypeofTender": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "Technical & Commercial"
+        },
+        "TypeofTender#Id": 2,
+        "Category": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 1,
+            "Value": "T2"
+        },
+        "Category#Id": 1,
+        "AssignedPerson": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|sismail@tq.com",
+            "DisplayName": "Sherif Allam Ali Mohamed Ismail",
+            "Email": "sismail@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=sismail@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Contract Performance Manager"
+        },
+        "AssignedPerson#Claims": "i:0#.f|membership|sismail@tq.com",
+        "TenderDescription": "Directional Drilling Services",
+        "Remarks": "1.5 Year",
+        "TenderStatus": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "Under Initial Approval"
+        },
+        "TenderStatus#Id": 2,
+        "DateReceived": "2026-01-20",
+        "SubmissionDate": "2026-01-30",
+        "Year": "2026",
+        "QuotedValue_x0028_USD_x0029_": 25471,
+        "CAPEXValue_x0028_USD_x0029_": 0,
+        "GrossMargin_x0025_": 50.1,
+        "EBITDA_x0025_": 38.12,
+        "EBIT_x0025_": 38.12,
+        "NetProfit_x0025_": 37.12,
+        "ROI_x0025_": 0,
+        "WinningProbability": 1,
+        "Bid_x0020_Expiry_x0020_Calculate": "2026-01-29T20:00:00Z",
+        "BidValidity": "2026-01-29",
+        "Incumbent": "NA",
+        "EVP_x002f_CEOApproval": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "VP Marketing & Commercial"
+        },
+        "EVP_x002f_CEOApproval#Id": 2,
+        "TenderReviewStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 5,
+            "Value": "Ongoing"
+        },
+        "TenderReviewStage#Id": 5,
+        "ApprovalStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Not yet started"
+        },
+        "ApprovalStage#Id": 0,
+        "TenderWorkingGroup": [],
+        "TenderWorkingGroup@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser)",
+        "TenderWorkingGroup#Claims": [],
+        "TenderWorkingGroup#Claims@odata.type": "#Collection(String)",
+        "EstimatedContractValue_x0028_USD0": 25000,
+        "EstimatedAnnualRevenue_x0028_USD": 25000,
+        "EstimatedCAPEXValue_x0028_USD_x0": 0,
+        "EstimatedContractValue_x0028_USD": "Best Estimate",
+        "EstimatedYearlyRevenue_x0028_USD": "Best Estimate",
+        "FolderLink": "https://taqa1.sharepoint.com/:f:/s/AMPS-AlMansooriCommercial/IgD3Ps1YGaWrSLj7r32m1wkaAf7eNrrR6dpjTFOcAek-OR8?e=GLQrI6",
+        "Bidding_x0020_Entity": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 15,
+            "Value": "Almansoori Petroleum Services for Freezone"
+        },
+        "Bidding_x0020_Entity#Id": 15,
+        "BidCurrency": "US$",
+        "Created": "2026-01-22T17:47:10Z",
+        "Author": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|sismail@tq.com",
+            "DisplayName": "Sherif Allam Ali Mohamed Ismail",
+            "Email": "sismail@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=sismail@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Contract Performance Manager"
+        },
+        "Author#Claims": "i:0#.f|membership|sismail@tq.com",
+        "Modified": "2026-01-23T17:47:48Z",
+        "Editor": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|tenders@tq.com",
+            "DisplayName": "TWS Contracts Department",
+            "Email": "tenders@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=tenders@tq.com",
+            "Department": "Commercial & Contract",
+            "JobTitle": null
+        },
+        "Editor#Claims": "i:0#.f|membership|tenders@tq.com",
+        "ESTIMATED_REQUIRED": true,
+        "{Identifier}": "Lists%252fTender%2bStatus%2bTracker%252f2192_.000",
+        "{IsFolder}": false,
+        "{Thumbnail}": {
+            "Large": null,
+            "Medium": null,
+            "Small": null
+        },
+        "{Link}": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/listform.aspx?PageType=4&ListId=c1ae7e37%2D1026%2D45cb%2D9f45%2D631016eb899e&ID=2192&ContentTypeID=0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{Name}": "Email Jan 20 2026",
+        "{FilenameWithExtension}": "Email Jan 20 2026",
+        "{Path}": "Lists/Tender Status Tracker/",
+        "{FullPath}": "Lists/Tender Status Tracker/2192_.000",
+        "{ContentType}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+            "Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+            "Name": "Item"
+        },
+        "{ContentType}#Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{HasAttachments}": false,
+        "{VersionNumber}": "22.0",
+        "{ApprovalStatus}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedApprovalStatus",
+            "Value": 0,
+            "Label": "Not submitted"
+        },
+        "{ApprovalStatus}#Value": 0
+    },
+    {
+        "@odata.etag": "\"4\"",
+        "ItemInternalId": "2193",
+        "ID": 2193,
+        "Title": "PR929344KSA",
+        "Country": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 1,
+            "Value": "KSA"
+        },
+        "Country#Id": 1,
+        "PSL": [
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+                "Id": 7,
+                "Value": "SAFETY"
+            }
+        ],
+        "PSL@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference)",
+        "PSL#Id": [
+            7
+        ],
+        "PSL#Id@odata.type": "#Collection(Int64)",
+        "Cust_x002e_Ref_x002e_No": "R2026-SAF02193",
+        "CustomerName": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 375,
+            "Value": "SCHLUMBERGER MIDDLE EAST S.A."
+        },
+        "CustomerName#Id": 375,
+        "Customer_x0020_Name_x003a__x0020": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 375,
+            "Value": "SLB ME"
+        },
+        "Customer_x0020_Name_x003a__x0020#Id": 375,
+        "DOA_x0020_Final_x0020_Approver": "VP Marketing & Commercial",
+        "OpportunityType": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 1,
+            "Value": "RFQ"
+        },
+        "OpportunityType#Id": 1,
+        "TypeofTender": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 1,
+            "Value": "Commercial"
+        },
+        "TypeofTender#Id": 1,
+        "Category": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 1,
+            "Value": "T2"
+        },
+        "Category#Id": 1,
+        "AssignedPerson": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|pberber@tq.com",
+            "DisplayName": "Paul Ryan Garcia Berber",
+            "Email": "pberber@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=pberber@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Commercial Analyst"
+        },
+        "AssignedPerson#Claims": "i:0#.f|membership|pberber@tq.com",
+        "TenderDescription": "Provision of H2S Services for Site 2905",
+        "Remarks": "1 Year",
+        "TenderStatus": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Bid Preparation"
+        },
+        "TenderStatus#Id": 0,
+        "DateReceived": "2026-01-23",
+        "SubmissionDate": "2026-01-30",
+        "Year": "2026",
+        "QuotedValue_x0028_USD_x0029_": 0,
+        "CAPEXValue_x0028_USD_x0029_": 0,
+        "GrossMargin_x0025_": 0,
+        "EBITDA_x0025_": 0,
+        "EBIT_x0025_": 0,
+        "NetProfit_x0025_": 0,
+        "ROI_x0025_": 0,
+        "WinningProbability": 0,
+        "BidValidity0": 30,
+        "Bid_x0020_Expiry_x0020_Calculate": "2026-02-28T20:00:00Z",
+        "BidValidity": "2026-02-28",
+        "Incumbent": "No Incumbent",
+        "EVP_x002f_CEOApproval": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "VP Marketing & Commercial"
+        },
+        "EVP_x002f_CEOApproval#Id": 2,
+        "TenderReviewStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Not yet started"
+        },
+        "TenderReviewStage#Id": 0,
+        "ApprovalStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Not yet started"
+        },
+        "ApprovalStage#Id": 0,
+        "TenderWorkingGroup": [],
+        "TenderWorkingGroup@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser)",
+        "TenderWorkingGroup#Claims": [],
+        "TenderWorkingGroup#Claims@odata.type": "#Collection(String)",
+        "EstimatedContractValue_x0028_USD0": 167400,
+        "EstimatedAnnualRevenue_x0028_USD": 167400,
+        "EstimatedCAPEXValue_x0028_USD_x0": 13000,
+        "FolderLink": "https://taqa1.sharepoint.com/:f:/s/AMPS-AlMansooriCommercial/IgCPBh7duMkcQJ6bETio0sp4AaZmPzDVRDDx6bpylxhC6Qk",
+        "Bidding_x0020_Entity": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 5,
+            "Value": "AlMansoori Petroleum Services"
+        },
+        "Bidding_x0020_Entity#Id": 5,
+        "BidCurrency": "USD",
+        "Created": "2026-01-23T04:41:35Z",
+        "Author": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|pberber@tq.com",
+            "DisplayName": "Paul Ryan Garcia Berber",
+            "Email": "pberber@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=pberber@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Commercial Analyst"
+        },
+        "Author#Claims": "i:0#.f|membership|pberber@tq.com",
+        "Modified": "2026-01-24T04:42:12Z",
+        "Editor": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|tenders@tq.com",
+            "DisplayName": "TWS Contracts Department",
+            "Email": "tenders@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=tenders@tq.com",
+            "Department": "Commercial & Contract",
+            "JobTitle": null
+        },
+        "Editor#Claims": "i:0#.f|membership|tenders@tq.com",
+        "ESTIMATED_REQUIRED": true,
+        "{Identifier}": "Lists%252fTender%2bStatus%2bTracker%252f2193_.000",
+        "{IsFolder}": false,
+        "{Thumbnail}": {
+            "Large": null,
+            "Medium": null,
+            "Small": null
+        },
+        "{Link}": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/listform.aspx?PageType=4&ListId=c1ae7e37%2D1026%2D45cb%2D9f45%2D631016eb899e&ID=2193&ContentTypeID=0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{Name}": "PR929344KSA",
+        "{FilenameWithExtension}": "PR929344KSA",
+        "{Path}": "Lists/Tender Status Tracker/",
+        "{FullPath}": "Lists/Tender Status Tracker/2193_.000",
+        "{ContentType}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+            "Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+            "Name": "Item"
+        },
+        "{ContentType}#Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{HasAttachments}": false,
+        "{VersionNumber}": "4.0",
+        "{ApprovalStatus}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedApprovalStatus",
+            "Value": 0,
+            "Label": "Not submitted"
+        },
+        "{ApprovalStatus}#Value": 0
+    },
+    {
+        "@odata.etag": "\"11\"",
+        "ItemInternalId": "2196",
+        "ID": 2196,
+        "Title": "EMAIL 22-Jan-2026 MPS-SWT for ADNOC",
+        "Country": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "UAE"
+        },
+        "Country#Id": 0,
+        "PSL": [
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+                "Id": 7,
+                "Value": "SAFETY"
+            }
+        ],
+        "PSL@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference)",
+        "PSL#Id": [
+            7
+        ],
+        "PSL#Id@odata.type": "#Collection(Int64)",
+        "Cust_x002e_Ref_x002e_No": "R2026-SAF02196",
+        "CustomerName": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 463,
+            "Value": "ALMANSOORI SERVICE WELL TESTING"
+        },
+        "CustomerName#Id": 463,
+        "Customer_x0020_Name_x003a__x0020": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 463,
+            "Value": "ALMANSOORI SWT"
+        },
+        "Customer_x0020_Name_x003a__x0020#Id": 463,
+        "DOA_x0020_Final_x0020_Approver": "VP Marketing & Commercial",
+        "OpportunityType": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 1,
+            "Value": "RFQ"
+        },
+        "OpportunityType#Id": 1,
+        "TypeofTender": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 1,
+            "Value": "Commercial"
+        },
+        "TypeofTender#Id": 1,
+        "Category": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 1,
+            "Value": "T2"
+        },
+        "Category#Id": 1,
+        "AssignedPerson": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|pberber@tq.com",
+            "DisplayName": "Paul Ryan Garcia Berber",
+            "Email": "pberber@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=pberber@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Commercial Analyst"
+        },
+        "AssignedPerson#Claims": "i:0#.f|membership|pberber@tq.com",
+        "TenderDescription": "Rental of AQMesh Air Quality Monitoring System for Ras Sadr FN-05 & RS-04",
+        "Remarks": "1.5 Years",
+        "TenderStatus": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Bid Preparation"
+        },
+        "TenderStatus#Id": 0,
+        "DateReceived": "2026-01-22",
+        "SubmissionDate": "2026-01-30",
+        "Year": "2026",
+        "QuotedValue_x0028_USD_x0029_": 280875,
+        "CAPEXValue_x0028_USD_x0029_": 0,
+        "GrossMargin_x0025_": 48,
+        "EBITDA_x0025_": 37,
+        "EBIT_x0025_": 37,
+        "NetProfit_x0025_": 31,
+        "ROI_x0025_": 0,
+        "WinningProbability": 0.9,
+        "BidValidity0": 30,
+        "Bid_x0020_Expiry_x0020_Calculate": "2026-02-28T20:00:00Z",
+        "BidValidity": "2026-02-28",
+        "Incumbent": "No Incumbent",
+        "EVP_x002f_CEOApproval": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "VP Marketing & Commercial"
+        },
+        "EVP_x002f_CEOApproval#Id": 2,
+        "TenderReviewStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Not yet started"
+        },
+        "TenderReviewStage#Id": 0,
+        "ApprovalStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "Ongoing"
+        },
+        "ApprovalStage#Id": 2,
+        "TenderWorkingGroup": [],
+        "TenderWorkingGroup@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser)",
+        "TenderWorkingGroup#Claims": [],
+        "TenderWorkingGroup#Claims@odata.type": "#Collection(String)",
+        "EstimatedContractValue_x0028_USD0": 280875,
+        "EstimatedAnnualRevenue_x0028_USD": 187250,
+        "EstimatedCAPEXValue_x0028_USD_x0": 0,
+        "FolderLink": "https://taqa1.sharepoint.com/:f:/s/AMPS-AlMansooriCommercial/IgC09N_XhbMfQ4sw5iTJgEqpAVSl3aXtG3PULPYuIygREMk",
+        "Bidding_x0020_Entity": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 20,
+            "Value": "AlMansoori Safety Services LLC"
+        },
+        "Bidding_x0020_Entity#Id": 20,
+        "BidCurrency": "USD",
+        "Created": "2026-01-24T18:27:35Z",
+        "Author": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|pberber@tq.com",
+            "DisplayName": "Paul Ryan Garcia Berber",
+            "Email": "pberber@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=pberber@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Commercial Analyst"
+        },
+        "Author#Claims": "i:0#.f|membership|pberber@tq.com",
+        "Modified": "2026-01-26T07:59:22Z",
+        "Editor": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|tenders@tq.com",
+            "DisplayName": "TWS Contracts Department",
+            "Email": "tenders@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=tenders@tq.com",
+            "Department": "Commercial & Contract",
+            "JobTitle": null
+        },
+        "Editor#Claims": "i:0#.f|membership|tenders@tq.com",
+        "ESTIMATED_REQUIRED": true,
+        "{Identifier}": "Lists%252fTender%2bStatus%2bTracker%252f2196_.000",
+        "{IsFolder}": false,
+        "{Thumbnail}": {
+            "Large": null,
+            "Medium": null,
+            "Small": null
+        },
+        "{Link}": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/listform.aspx?PageType=4&ListId=c1ae7e37%2D1026%2D45cb%2D9f45%2D631016eb899e&ID=2196&ContentTypeID=0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{Name}": "EMAIL 22-Jan-2026 MPS-SWT for ADNOC",
+        "{FilenameWithExtension}": "EMAIL 22-Jan-2026 MPS-SWT for ADNOC",
+        "{Path}": "Lists/Tender Status Tracker/",
+        "{FullPath}": "Lists/Tender Status Tracker/2196_.000",
+        "{ContentType}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+            "Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+            "Name": "Item"
+        },
+        "{ContentType}#Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{HasAttachments}": false,
+        "{VersionNumber}": "11.0",
+        "{ApprovalStatus}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedApprovalStatus",
+            "Value": 0,
+            "Label": "Not submitted"
+        },
+        "{ApprovalStatus}#Value": 0
+    },
+    {
+        "@odata.etag": "\"48\"",
+        "ItemInternalId": "1876",
+        "ID": 1876,
+        "Title": "Tender 970",
+        "Country": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 3,
+            "Value": "EGYPT"
+        },
+        "Country#Id": 3,
+        "PSL": [
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+                "Id": 10,
+                "Value": "WIRELINE"
+            }
+        ],
+        "PSL@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference)",
+        "PSL#Id": [
+            10
+        ],
+        "PSL#Id@odata.type": "#Collection(Int64)",
+        "Cust_x002e_Ref_x002e_No": "T2025-WIR01876",
+        "CustomerName": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 165,
+            "Value": "GENERAL PETROLEUM COMPANY (GPC)"
+        },
+        "CustomerName#Id": 165,
+        "Customer_x0020_Name_x003a__x0020": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 165,
+            "Value": "GPC"
+        },
+        "Customer_x0020_Name_x003a__x0020#Id": 165,
+        "DOA_x0020_Final_x0020_Approver": "COO",
+        "OpportunityType": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "TENDER"
+        },
+        "OpportunityType#Id": 0,
+        "TypeofTender": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "Technical & Commercial"
+        },
+        "TypeofTender#Id": 2,
+        "Category": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 1,
+            "Value": "T2"
+        },
+        "Category#Id": 1,
+        "AssignedPerson": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|aaljabri@tq.com",
+            "DisplayName": "Ali Al Jabri",
+            "Email": "aaljabri@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=aaljabri@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Contract Performance Lead"
+        },
+        "AssignedPerson#Claims": "i:0#.f|membership|aaljabri@tq.com",
+        "TenderDescription": "Perforation TCP Services",
+        "Remarks": "2 Years",
+        "TenderStatus": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Bid Preparation"
+        },
+        "TenderStatus#Id": 0,
+        "DateReceived": "2025-09-18",
+        "SubmissionDate": "2026-02-01",
+        "Year": "2026",
+        "TypeofAward": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Single"
+        },
+        "TypeofAward#Id": 0,
+        "QuotedValue_x0028_USD_x0029_": 3520045,
+        "CAPEXValue_x0028_USD_x0029_": 0,
+        "GrossMargin_x0025_": 37.9,
+        "EBITDA_x0025_": 28.9,
+        "EBIT_x0025_": 27.9,
+        "NetProfit_x0025_": 26.9,
+        "ROI_x0025_": 0,
+        "WinningProbability": 0.5,
+        "BidValidity0": 120,
+        "Bid_x0020_Expiry_x0020_Calculate": "2026-05-31T20:00:00Z",
+        "BidValidity": "2026-03-12",
+        "Incumbent": "TBA",
+        "EVP_x002f_CEOApproval": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "VP Marketing & Commercial"
+        },
+        "EVP_x002f_CEOApproval#Id": 2,
+        "TenderReviewStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 5,
+            "Value": "Ongoing"
+        },
+        "TenderReviewStage#Id": 5,
+        "ApprovalStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "Ongoing"
+        },
+        "ApprovalStage#Id": 2,
+        "TenderWorkingGroup": [
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|mfarag@tq.com",
+                "DisplayName": "Mohamed Farag",
+                "Email": "mfarag@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=mfarag@tq.com",
+                "Department": "Wireline",
+                "JobTitle": "Technical & Sales Manager"
+            }
+        ],
+        "TenderWorkingGroup@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser)",
+        "TenderWorkingGroup#Claims": [
+            "i:0#.f|membership|mfarag@tq.com"
+        ],
+        "TenderWorkingGroup#Claims@odata.type": "#Collection(String)",
+        "EstimatedContractValue_x0028_USD0": 2000000,
+        "EstimatedAnnualRevenue_x0028_USD": 1000000,
+        "EstimatedCAPEXValue_x0028_USD_x0": 0,
+        "EstimatedContractValue_x0028_USD": "TBA",
+        "EstimatedYearlyRevenue_x0028_USD": "TBA",
+        "CAPEXInformation": "TBA",
+        "FolderLink": "https://taqa1.sharepoint.com/:f:/s/AMPS-AlMansooriCommercial/EqZh9-yhuJtHn8fmu5gpHFMBcYaJQ__vMRmqB1lb4TPLww",
+        "Bidding_x0020_Entity": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 15,
+            "Value": "Almansoori Petroleum Services for Freezone"
+        },
+        "Bidding_x0020_Entity#Id": 15,
+        "BidCurrency": "USD",
+        "Created": "2025-09-19T11:07:49Z",
+        "Author": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|aaljabri@tq.com",
+            "DisplayName": "Ali Al Jabri",
+            "Email": "aaljabri@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=aaljabri@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Contract Performance Lead"
+        },
+        "Author#Claims": "i:0#.f|membership|aaljabri@tq.com",
+        "Modified": "2026-01-22T19:28:04Z",
+        "Editor": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|tenders@tq.com",
+            "DisplayName": "TWS Contracts Department",
+            "Email": "tenders@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=tenders@tq.com",
+            "Department": "Commercial & Contract",
+            "JobTitle": null
+        },
+        "Editor#Claims": "i:0#.f|membership|tenders@tq.com",
+        "ESTIMATED_REQUIRED": true,
+        "AREA": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "AFI"
+        },
+        "AREA#Id": 2,
+        "{Identifier}": "Lists%252fTender%2bStatus%2bTracker%252f1876_.000",
+        "{IsFolder}": false,
+        "{Thumbnail}": {
+            "Large": null,
+            "Medium": null,
+            "Small": null
+        },
+        "{Link}": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/listform.aspx?PageType=4&ListId=c1ae7e37%2D1026%2D45cb%2D9f45%2D631016eb899e&ID=1876&ContentTypeID=0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{Name}": "Tender 970",
+        "{FilenameWithExtension}": "Tender 970",
+        "{Path}": "Lists/Tender Status Tracker/",
+        "{FullPath}": "Lists/Tender Status Tracker/1876_.000",
+        "{ContentType}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+            "Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+            "Name": "Item"
+        },
+        "{ContentType}#Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{HasAttachments}": false,
+        "{VersionNumber}": "48.0",
+        "{ApprovalStatus}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedApprovalStatus",
+            "Value": 0,
+            "Label": "Not submitted"
+        },
+        "{ApprovalStatus}#Value": 0
+    },
+    {
+        "@odata.etag": "\"31\"",
+        "ItemInternalId": "2095",
+        "ID": 2095,
+        "Title": "RFP-2147170 ",
+        "Country": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 10,
+            "Value": "KUWAIT"
+        },
+        "Country#Id": 10,
+        "PSL": [
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+                "Id": 1,
+                "Value": "SWT"
+            }
+        ],
+        "PSL@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference)",
+        "PSL#Id": [
+            1
+        ],
+        "PSL#Id@odata.type": "#Collection(Int64)",
+        "Cust_x002e_Ref_x002e_No": "T2026-SWT02095",
+        "CustomerName": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 214,
+            "Value": "KUWAIT OIL COMPANY (KSC)"
+        },
+        "CustomerName#Id": 214,
+        "Customer_x0020_Name_x003a__x0020": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 214,
+            "Value": "KOC"
+        },
+        "Customer_x0020_Name_x003a__x0020#Id": 214,
+        "DOA_x0020_Final_x0020_Approver": "ExCom",
+        "OpportunityType": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "TENDER"
+        },
+        "OpportunityType#Id": 0,
+        "TypeofTender": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "Technical & Commercial"
+        },
+        "TypeofTender#Id": 2,
+        "Category": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "T1"
+        },
+        "Category#Id": 0,
+        "AssignedPerson": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|mvallupparambil@tq.com",
+            "DisplayName": "Muhammed Shafeek",
+            "Email": "mvallupparambil@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=mvallupparambil@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Commercial Specialist"
+        },
+        "AssignedPerson#Claims": "i:0#.f|membership|mvallupparambil@tq.com",
+        "TenderDescription": "WELL TESTING AND ASSOCIATED SERVICES",
+        "Remarks": "5 Years + 1 Extension",
+        "TenderStatus": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Bid Preparation"
+        },
+        "TenderStatus#Id": 0,
+        "DateReceived": "2025-12-05",
+        "SubmissionDate": "2026-02-02",
+        "Year": "2026",
+        "TypeofAward": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 1,
+            "Value": "Multiple"
+        },
+        "TypeofAward#Id": 1,
+        "QuotedValue_x0028_USD_x0029_": 0,
+        "CAPEXValue_x0028_USD_x0029_": 0,
+        "GrossMargin_x0025_": 0,
+        "EBITDA_x0025_": 0,
+        "EBIT_x0025_": 0,
+        "NetProfit_x0025_": 0,
+        "ROI_x0025_": 0,
+        "WinningProbability": 0,
+        "BidValidity0": 90,
+        "Bid_x0020_Expiry_x0020_Calculate": "2026-05-02T20:00:00Z",
+        "BidValidity": "2026-05-02",
+        "Incumbent": "MPS, SLB, HLB, GOSCO, GDMC, SAPESCO, SPETCO, GDC, EXPERTEST ",
+        "EVP_x002f_CEOApproval": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 4,
+            "Value": "ExComm"
+        },
+        "EVP_x002f_CEOApproval#Id": 4,
+        "TenderReviewStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 6,
+            "Value": "Approved"
+        },
+        "TenderReviewStage#Id": 6,
+        "ApprovalStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Not yet started"
+        },
+        "ApprovalStage#Id": 0,
+        "TenderWorkingGroup": [
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|sfahmy@tq.com",
+                "DisplayName": "Seif El-Din Adel M Fahmy",
+                "Email": "sfahmy@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=sfahmy@tq.com",
+                "Department": "Well Testing Services (WTS)",
+                "JobTitle": "Operations Support Lead"
+            },
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|falmousa@tq.com",
+                "DisplayName": "Faisal AlMousa",
+                "Email": "falmousa@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=falmousa@tq.com",
+                "Department": "Well Testing Services (WTS)",
+                "JobTitle": "Service Delivery Manager"
+            },
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|wael.elgeddawy@tq.com",
+                "DisplayName": "Wael Elgeddawy",
+                "Email": "wael.elgeddawy@TQ.COM",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=wael.elgeddawy@TQ.COM",
+                "Department": "Well Testing Services",
+                "JobTitle": "Technical and Sales Director"
+            },
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|faljabri@tq.com",
+                "DisplayName": "Faisal Al Jabri",
+                "Email": "faljabri@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=faljabri@tq.com",
+                "Department": "Commercial & Sales",
+                "JobTitle": "Senior Commercial Manager"
+            },
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|mvallupparambil@tq.com",
+                "DisplayName": "Muhammed Shafeek",
+                "Email": "mvallupparambil@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=mvallupparambil@tq.com",
+                "Department": "Commercial & Sales",
+                "JobTitle": "Commercial Specialist"
+            },
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|sspillai@tq.com",
+                "DisplayName": "Sujith Sasidharan Pillai",
+                "Email": "sspillai@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=sspillai@tq.com",
+                "Department": "TWS Kuwait",
+                "JobTitle": "Technical & Sales Manager"
+            }
+        ],
+        "TenderWorkingGroup@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser)",
+        "TenderWorkingGroup#Claims": [
+            "i:0#.f|membership|sfahmy@tq.com",
+            "i:0#.f|membership|falmousa@tq.com",
+            "i:0#.f|membership|wael.elgeddawy@tq.com",
+            "i:0#.f|membership|faljabri@tq.com",
+            "i:0#.f|membership|mvallupparambil@tq.com",
+            "i:0#.f|membership|sspillai@tq.com"
+        ],
+        "TenderWorkingGroup#Claims@odata.type": "#Collection(String)",
+        "EstimatedContractValue_x0028_USD0": 36000000,
+        "EstimatedAnnualRevenue_x0028_USD": 7200000,
+        "EstimatedCAPEXValue_x0028_USD_x0": 2000000,
+        "EstimatedContractValue_x0028_USD": "Based on the incumbent contract ",
+        "EstimatedYearlyRevenue_x0028_USD": "Based on the incumbet contract",
+        "CAPEXInformation": "Initial estimate to replace old equipment ",
+        "FolderLink": "https://taqa1.sharepoint.com/:f:/s/AMPS-AlMansooriCommercial/EsfGXtsjVwBFoZpDh2-0GIsBRKp0dIw0keCdOo-OEpOISw",
+        "Bidding_x0020_Entity": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 17,
+            "Value": "AlMansoori Production Services Company LLC"
+        },
+        "Bidding_x0020_Entity#Id": 17,
+        "BidCurrency": "Kuwaiti Dinars",
+        "Created": "2025-12-08T07:52:01Z",
+        "Author": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|mabdelghani@tq.com",
+            "DisplayName": "Mohamed Khaled Abdelghani",
+            "Email": "mabdelghani@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=mabdelghani@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Commercial Analyst"
+        },
+        "Author#Claims": "i:0#.f|membership|mabdelghani@tq.com",
+        "Modified": "2026-01-14T14:04:06Z",
+        "Editor": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|atkachyov@tq.com",
+            "DisplayName": "Aleksey Tkachyov",
+            "Email": "atkachyov@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=atkachyov@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Contract Performance Director"
+        },
+        "Editor#Claims": "i:0#.f|membership|atkachyov@tq.com",
+        "ESTIMATED_REQUIRED": true,
+        "AREA": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "NME"
+        },
+        "AREA#Id": 0,
+        "{Identifier}": "Lists%252fTender%2bStatus%2bTracker%252f2095_.000",
+        "{IsFolder}": false,
+        "{Thumbnail}": {
+            "Large": null,
+            "Medium": null,
+            "Small": null
+        },
+        "{Link}": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/listform.aspx?PageType=4&ListId=c1ae7e37%2D1026%2D45cb%2D9f45%2D631016eb899e&ID=2095&ContentTypeID=0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{Name}": "RFP-2147170 ",
+        "{FilenameWithExtension}": "RFP-2147170 ",
+        "{Path}": "Lists/Tender Status Tracker/",
+        "{FullPath}": "Lists/Tender Status Tracker/2095_.000",
+        "{ContentType}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+            "Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+            "Name": "Item"
+        },
+        "{ContentType}#Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{HasAttachments}": false,
+        "{VersionNumber}": "31.0",
+        "{ApprovalStatus}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedApprovalStatus",
+            "Value": 0,
+            "Label": "Not submitted"
+        },
+        "{ApprovalStatus}#Value": 0
+    },
+    {
+        "@odata.etag": "\"8\"",
+        "ItemInternalId": "2174",
+        "ID": 2174,
+        "Title": "Email 13.01.2026",
+        "Country": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 28,
+            "Value": "AZERBAIJAN"
+        },
+        "Country#Id": 28,
+        "PSL": [
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+                "Id": 10,
+                "Value": "WIRELINE"
+            }
+        ],
+        "PSL@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference)",
+        "PSL#Id": [
+            10
+        ],
+        "PSL#Id@odata.type": "#Collection(Int64)",
+        "Cust_x002e_Ref_x002e_No": "R2026-WIR02174",
+        "CustomerName": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 577,
+            "Value": "BAKER HUGHES EUROPE"
+        },
+        "CustomerName#Id": 577,
+        "Customer_x0020_Name_x003a__x0020": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 577,
+            "Value": "BAKER HUGHES EUROPE"
+        },
+        "Customer_x0020_Name_x003a__x0020#Id": 577,
+        "DOA_x0020_Final_x0020_Approver": "BOD",
+        "OpportunityType": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 1,
+            "Value": "RFQ"
+        },
+        "OpportunityType#Id": 1,
+        "TypeofTender": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 1,
+            "Value": "Commercial"
+        },
+        "TypeofTender#Id": 1,
+        "Category": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "T3"
+        },
+        "Category#Id": 2,
+        "AssignedPerson": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|aaljabri@tq.com",
+            "DisplayName": "Ali Al Jabri",
+            "Email": "aaljabri@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=aaljabri@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Contract Performance Lead"
+        },
+        "AssignedPerson#Claims": "i:0#.f|membership|aaljabri@tq.com",
+        "TenderDescription": "RCT Services",
+        "TenderStatus": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Bid Preparation"
+        },
+        "TenderStatus#Id": 0,
+        "DateReceived": "2026-01-13",
+        "SubmissionDate": "2026-02-02",
+        "Year": "2026",
+        "QuotedValue_x0028_USD_x0029_": 0,
+        "CAPEXValue_x0028_USD_x0029_": 0,
+        "GrossMargin_x0025_": 0,
+        "EBITDA_x0025_": 0,
+        "EBIT_x0025_": 0,
+        "NetProfit_x0025_": 0,
+        "ROI_x0025_": 0,
+        "WinningProbability": 0,
+        "Bid_x0020_Expiry_x0020_Calculate": "2026-02-01T20:00:00Z",
+        "BidValidity": "2026-01-22",
+        "Incumbent": "NA",
+        "EVP_x002f_CEOApproval": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "VP Marketing & Commercial"
+        },
+        "EVP_x002f_CEOApproval#Id": 2,
+        "TenderReviewStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Not yet started"
+        },
+        "TenderReviewStage#Id": 0,
+        "ApprovalStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Not yet started"
+        },
+        "ApprovalStage#Id": 0,
+        "TenderWorkingGroup": [],
+        "TenderWorkingGroup@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser)",
+        "TenderWorkingGroup#Claims": [],
+        "TenderWorkingGroup#Claims@odata.type": "#Collection(String)",
+        "EstimatedContractValue_x0028_USD0": 0,
+        "EstimatedAnnualRevenue_x0028_USD": 0,
+        "EstimatedCAPEXValue_x0028_USD_x0": 0,
+        "FolderLink": "https://taqa1.sharepoint.com/:f:/s/AMPS-AlMansooriCommercial/IgDMEIPXmna1T59HLTo3pK_dAQR5Ph2Xm1xnzdECpMW9i0E",
+        "Created": "2026-01-16T12:37:16Z",
+        "Author": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|aaljabri@tq.com",
+            "DisplayName": "Ali Al Jabri",
+            "Email": "aaljabri@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=aaljabri@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Contract Performance Lead"
+        },
+        "Author#Claims": "i:0#.f|membership|aaljabri@tq.com",
+        "Modified": "2026-01-26T06:32:57Z",
+        "Editor": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|aaljabri@tq.com",
+            "DisplayName": "Ali Al Jabri",
+            "Email": "aaljabri@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=aaljabri@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Contract Performance Lead"
+        },
+        "Editor#Claims": "i:0#.f|membership|aaljabri@tq.com",
+        "ESTIMATED_REQUIRED": false,
+        "AREA": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "NME"
+        },
+        "AREA#Id": 0,
+        "{Identifier}": "Lists%252fTender%2bStatus%2bTracker%252f2174_.000",
+        "{IsFolder}": false,
+        "{Thumbnail}": {
+            "Large": null,
+            "Medium": null,
+            "Small": null
+        },
+        "{Link}": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/listform.aspx?PageType=4&ListId=c1ae7e37%2D1026%2D45cb%2D9f45%2D631016eb899e&ID=2174&ContentTypeID=0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{Name}": "Email 13.01.2026",
+        "{FilenameWithExtension}": "Email 13.01.2026",
+        "{Path}": "Lists/Tender Status Tracker/",
+        "{FullPath}": "Lists/Tender Status Tracker/2174_.000",
+        "{ContentType}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+            "Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+            "Name": "Item"
+        },
+        "{ContentType}#Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{HasAttachments}": false,
+        "{VersionNumber}": "8.0",
+        "{ApprovalStatus}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedApprovalStatus",
+            "Value": 0,
+            "Label": "Not submitted"
+        },
+        "{ApprovalStatus}#Value": 0
+    },
+    {
+        "@odata.etag": "\"36\"",
+        "ItemInternalId": "2170",
+        "ID": 2170,
+        "Title": "PPCL-2025-0970",
+        "Country": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 11,
+            "Value": "IRAQ-KURDISTAN"
+        },
+        "Country#Id": 11,
+        "PSL": [
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+                "Id": 0,
+                "Value": "SLICKLINE"
+            }
+        ],
+        "PSL@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference)",
+        "PSL#Id": [
+            0
+        ],
+        "PSL#Id@odata.type": "#Collection(Int64)",
+        "Cust_x002e_Ref_x002e_No": "T2026-SLI02170",
+        "CustomerName": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 297,
+            "Value": "PEARL PETROLEUM COMPANY LIMITED"
+        },
+        "CustomerName#Id": 297,
+        "Customer_x0020_Name_x003a__x0020": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 297,
+            "Value": "PEARL PETROLEUM"
+        },
+        "Customer_x0020_Name_x003a__x0020#Id": 297,
+        "DOA_x0020_Final_x0020_Approver": "VP Marketing & Commercial",
+        "OpportunityType": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "TENDER"
+        },
+        "OpportunityType#Id": 0,
+        "TypeofTender": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "Technical & Commercial"
+        },
+        "TypeofTender#Id": 2,
+        "Category": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 1,
+            "Value": "T2"
+        },
+        "Category#Id": 1,
+        "AssignedPerson": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|aaljabri@tq.com",
+            "DisplayName": "Ali Al Jabri",
+            "Email": "aaljabri@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=aaljabri@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Contract Performance Lead"
+        },
+        "AssignedPerson#Claims": "i:0#.f|membership|aaljabri@tq.com",
+        "TenderDescription": "PROVISION OF SLICKLINE MEMORY PRODUCTION LOGGING TEST SERVICES FOR KM WELLS",
+        "Remarks": "Comletion of 5 wells",
+        "TenderStatus": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Bid Preparation"
+        },
+        "TenderStatus#Id": 0,
+        "DateReceived": "2026-01-13",
+        "SubmissionDate": "2026-02-03",
+        "Year": "2026",
+        "TypeofAward": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Single"
+        },
+        "TypeofAward#Id": 0,
+        "QuotedValue_x0028_USD_x0029_": 208300,
+        "CAPEXValue_x0028_USD_x0029_": 0,
+        "GrossMargin_x0025_": 56,
+        "EBITDA_x0025_": 46.7,
+        "EBIT_x0025_": 44,
+        "NetProfit_x0025_": 37.4,
+        "ROI_x0025_": 0,
+        "WinningProbability": 0.7,
+        "BidValidity0": 120,
+        "Bid_x0020_Expiry_x0020_Calculate": "2026-06-02T20:00:00Z",
+        "BidValidity": "2026-06-02",
+        "Incumbent": "TAQA",
+        "EVP_x002f_CEOApproval": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "VP Marketing & Commercial"
+        },
+        "EVP_x002f_CEOApproval#Id": 2,
+        "TenderReviewStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 5,
+            "Value": "Ongoing"
+        },
+        "TenderReviewStage#Id": 5,
+        "ApprovalStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "Ongoing"
+        },
+        "ApprovalStage#Id": 2,
+        "TenderWorkingGroup": [
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|bsaidawi@tq.com",
+                "DisplayName": "Basel Saidawi",
+                "Email": "bsaidawi@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=bsaidawi@tq.com",
+                "Department": "Slickline",
+                "JobTitle": "Service Delivery Manager"
+            }
+        ],
+        "TenderWorkingGroup@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser)",
+        "TenderWorkingGroup#Claims": [
+            "i:0#.f|membership|bsaidawi@tq.com"
+        ],
+        "TenderWorkingGroup#Claims@odata.type": "#Collection(String)",
+        "EstimatedContractValue_x0028_USD0": 100000,
+        "EstimatedAnnualRevenue_x0028_USD": 100000,
+        "EstimatedCAPEXValue_x0028_USD_x0": 0,
+        "EstimatedContractValue_x0028_USD": "Callout - 5 wells",
+        "EstimatedYearlyRevenue_x0028_USD": "Callout - 5 Wells",
+        "CAPEXInformation": "Equipment available in Iraq",
+        "FolderLink": "https://taqa1.sharepoint.com/:f:/s/AMPS-AlMansooriCommercial/IgCHkNd7bbKrT5bqXikgrlrRAZ8bay9LR_w5a4PWf522724",
+        "Bidding_x0020_Entity": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 16,
+            "Value": "ALMANSOORI PETROLEUM SERVICES SOLE PROPRIETORSHIP LLC"
+        },
+        "Bidding_x0020_Entity#Id": 16,
+        "BidCurrency": "USD",
+        "Created": "2026-01-15T10:43:51Z",
+        "Author": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|aaljabri@tq.com",
+            "DisplayName": "Ali Al Jabri",
+            "Email": "aaljabri@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=aaljabri@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Contract Performance Lead"
+        },
+        "Author#Claims": "i:0#.f|membership|aaljabri@tq.com",
+        "Modified": "2026-01-22T19:35:13Z",
+        "Editor": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|tenders@tq.com",
+            "DisplayName": "TWS Contracts Department",
+            "Email": "tenders@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=tenders@tq.com",
+            "Department": "Commercial & Contract",
+            "JobTitle": null
+        },
+        "Editor#Claims": "i:0#.f|membership|tenders@tq.com",
+        "ESTIMATED_REQUIRED": false,
+        "AREA": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "AFI"
+        },
+        "AREA#Id": 2,
+        "{Identifier}": "Lists%252fTender%2bStatus%2bTracker%252f2170_.000",
+        "{IsFolder}": false,
+        "{Thumbnail}": {
+            "Large": null,
+            "Medium": null,
+            "Small": null
+        },
+        "{Link}": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/listform.aspx?PageType=4&ListId=c1ae7e37%2D1026%2D45cb%2D9f45%2D631016eb899e&ID=2170&ContentTypeID=0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{Name}": "PPCL-2025-0970",
+        "{FilenameWithExtension}": "PPCL-2025-0970",
+        "{Path}": "Lists/Tender Status Tracker/",
+        "{FullPath}": "Lists/Tender Status Tracker/2170_.000",
+        "{ContentType}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+            "Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+            "Name": "Item"
+        },
+        "{ContentType}#Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{HasAttachments}": false,
+        "{VersionNumber}": "36.0",
+        "{ApprovalStatus}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedApprovalStatus",
+            "Value": 0,
+            "Label": "Not submitted"
+        },
+        "{ApprovalStatus}#Value": 0
+    },
+    {
+        "@odata.etag": "\"15\"",
+        "ItemInternalId": "2172",
+        "ID": 2172,
+        "Title": "GEM/GARPTS/29122025/HHATW94KS10J",
+        "Country": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 6,
+            "Value": "INDIA"
+        },
+        "Country#Id": 6,
+        "PSL": [
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+                "Id": 1,
+                "Value": "SWT"
+            }
+        ],
+        "PSL@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference)",
+        "PSL#Id": [
+            1
+        ],
+        "PSL#Id@odata.type": "#Collection(Int64)",
+        "Cust_x002e_Ref_x002e_No": "T2026-SWT02172",
+        "CustomerName": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 278,
+            "Value": "OIL AND NATURAL GAS CORPORATION (ONGC)"
+        },
+        "CustomerName#Id": 278,
+        "Customer_x0020_Name_x003a__x0020": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 278,
+            "Value": "ONGC"
+        },
+        "Customer_x0020_Name_x003a__x0020#Id": 278,
+        "DOA_x0020_Final_x0020_Approver": "VP Marketing & Commercial",
+        "OpportunityType": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "TENDER"
+        },
+        "OpportunityType#Id": 0,
+        "TypeofTender": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "Technical & Commercial"
+        },
+        "TypeofTender#Id": 2,
+        "Category": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 1,
+            "Value": "T2"
+        },
+        "Category#Id": 1,
+        "AssignedPerson": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|mvallupparambil@tq.com",
+            "DisplayName": "Muhammed Shafeek",
+            "Email": "mvallupparambil@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=mvallupparambil@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Commercial Specialist"
+        },
+        "AssignedPerson#Claims": "i:0#.f|membership|mvallupparambil@tq.com",
+        "TenderDescription": "Hiring of 10k Production Testing Equipment along with Services",
+        "Remarks": "3 years",
+        "TenderStatus": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Bid Preparation"
+        },
+        "TenderStatus#Id": 0,
+        "DateReceived": "2026-01-16",
+        "SubmissionDate": "2026-02-05",
+        "Year": "2026",
+        "TypeofAward": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Single"
+        },
+        "TypeofAward#Id": 0,
+        "QuotedValue_x0028_USD_x0029_": 0,
+        "CAPEXValue_x0028_USD_x0029_": 0,
+        "GrossMargin_x0025_": 0,
+        "EBITDA_x0025_": 0,
+        "EBIT_x0025_": 0,
+        "NetProfit_x0025_": 0,
+        "ROI_x0025_": 0,
+        "WinningProbability": 0,
+        "BidValidity0": 90,
+        "Bid_x0020_Expiry_x0020_Calculate": "2026-05-05T20:00:00Z",
+        "BidValidity": "2026-05-05",
+        "Incumbent": "tbc",
+        "EVP_x002f_CEOApproval": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "VP Marketing & Commercial"
+        },
+        "EVP_x002f_CEOApproval#Id": 2,
+        "TenderReviewStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 8,
+            "Value": "Canceled"
+        },
+        "TenderReviewStage#Id": 8,
+        "ApprovalStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Not yet started"
+        },
+        "ApprovalStage#Id": 0,
+        "TenderWorkingGroup": [
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|faljabri@tq.com",
+                "DisplayName": "Faisal Al Jabri",
+                "Email": "faljabri@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=faljabri@tq.com",
+                "Department": "Commercial & Sales",
+                "JobTitle": "Senior Commercial Manager"
+            },
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|mvallupparambil@tq.com",
+                "DisplayName": "Muhammed Shafeek",
+                "Email": "mvallupparambil@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=mvallupparambil@tq.com",
+                "Department": "Commercial & Sales",
+                "JobTitle": "Commercial Specialist"
+            },
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|ujjwal.kumar@tq.com",
+                "DisplayName": "Ujjwal Kumar",
+                "Email": "Ujjwal.Kumar@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=Ujjwal.Kumar@tq.com",
+                "Department": "Well Testing Services (WTS)",
+                "JobTitle": "Operations Support Lead"
+            },
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|sfahmy@tq.com",
+                "DisplayName": "Seif El-Din Adel M Fahmy",
+                "Email": "sfahmy@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=sfahmy@tq.com",
+                "Department": "Well Testing Services (WTS)",
+                "JobTitle": "Operations Support Lead"
+            },
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|wael.elgeddawy@tq.com",
+                "DisplayName": "Wael Elgeddawy",
+                "Email": "wael.elgeddawy@TQ.COM",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=wael.elgeddawy@TQ.COM",
+                "Department": "Well Testing Services",
+                "JobTitle": "Technical and Sales Director"
+            }
+        ],
+        "TenderWorkingGroup@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser)",
+        "TenderWorkingGroup#Claims": [
+            "i:0#.f|membership|faljabri@tq.com",
+            "i:0#.f|membership|mvallupparambil@tq.com",
+            "i:0#.f|membership|ujjwal.kumar@tq.com",
+            "i:0#.f|membership|sfahmy@tq.com",
+            "i:0#.f|membership|wael.elgeddawy@tq.com"
+        ],
+        "TenderWorkingGroup#Claims@odata.type": "#Collection(String)",
+        "EstimatedContractValue_x0028_USD0": 0,
+        "EstimatedAnnualRevenue_x0028_USD": 0,
+        "EstimatedCAPEXValue_x0028_USD_x0": 0,
+        "EstimatedContractValue_x0028_USD": "TBA",
+        "FolderLink": "https://taqa1.sharepoint.com/:f:/s/AMPS-AlMansooriCommercial/IgDeAuLjlVLJQpS5Bx411E-1AXyMH_S7Sh6XXuu14rf-UzQ",
+        "Bidding_x0020_Entity": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 19,
+            "Value": "AlMansoori Production Services India Pvt.Ltd"
+        },
+        "Bidding_x0020_Entity#Id": 19,
+        "BidCurrency": "Indian Rupee",
+        "Created": "2026-01-16T06:33:37Z",
+        "Author": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|mabdelghani@tq.com",
+            "DisplayName": "Mohamed Khaled Abdelghani",
+            "Email": "mabdelghani@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=mabdelghani@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Commercial Analyst"
+        },
+        "Author#Claims": "i:0#.f|membership|mabdelghani@tq.com",
+        "Modified": "2026-01-20T10:17:18Z",
+        "Editor": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|tenders@tq.com",
+            "DisplayName": "TWS Contracts Department",
+            "Email": "tenders@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=tenders@tq.com",
+            "Department": "Commercial & Contract",
+            "JobTitle": null
+        },
+        "Editor#Claims": "i:0#.f|membership|tenders@tq.com",
+        "ESTIMATED_REQUIRED": false,
+        "AREA": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 1,
+            "Value": "SME"
+        },
+        "AREA#Id": 1,
+        "{Identifier}": "Lists%252fTender%2bStatus%2bTracker%252f2172_.000",
+        "{IsFolder}": false,
+        "{Thumbnail}": {
+            "Large": null,
+            "Medium": null,
+            "Small": null
+        },
+        "{Link}": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/listform.aspx?PageType=4&ListId=c1ae7e37%2D1026%2D45cb%2D9f45%2D631016eb899e&ID=2172&ContentTypeID=0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{Name}": "GEM/GARPTS/29122025/HHATW94KS10J",
+        "{FilenameWithExtension}": "GEM/GARPTS/29122025/HHATW94KS10J",
+        "{Path}": "Lists/Tender Status Tracker/",
+        "{FullPath}": "Lists/Tender Status Tracker/2172_.000",
+        "{ContentType}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+            "Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+            "Name": "Item"
+        },
+        "{ContentType}#Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{HasAttachments}": false,
+        "{VersionNumber}": "15.0",
+        "{ApprovalStatus}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedApprovalStatus",
+            "Value": 0,
+            "Label": "Not submitted"
+        },
+        "{ApprovalStatus}#Value": 0
+    },
+    {
+        "@odata.etag": "\"32\"",
+        "ItemInternalId": "2136",
+        "ID": 2136,
+        "Title": "787/2025/BTB (TP-1311-2025)",
+        "Country": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 12,
+            "Value": "BAHRAIN"
+        },
+        "Country#Id": 12,
+        "PSL": [
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+                "Id": 2,
+                "Value": "CTSS"
+            },
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+                "Id": 1,
+                "Value": "SWT"
+            }
+        ],
+        "PSL@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference)",
+        "PSL#Id": [
+            2,
+            1
+        ],
+        "PSL#Id@odata.type": "#Collection(Int64)",
+        "Cust_x002e_Ref_x002e_No": "T2026-CTS02136",
+        "CustomerName": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 63,
+            "Value": "BAPCO UPSTREAM W.L.L"
+        },
+        "CustomerName#Id": 63,
+        "Customer_x0020_Name_x003a__x0020": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 63,
+            "Value": "BAPCO UPSTREAM"
+        },
+        "Customer_x0020_Name_x003a__x0020#Id": 63,
+        "DOA_x0020_Final_x0020_Approver": "ExCom",
+        "OpportunityType": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "TENDER"
+        },
+        "OpportunityType#Id": 0,
+        "TypeofTender": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "Technical & Commercial"
+        },
+        "TypeofTender#Id": 2,
+        "Category": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "T1"
+        },
+        "Category#Id": 0,
+        "AssignedPerson": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|ashaiksha@tq.com",
+            "DisplayName": "Abdul Rahim Shaiksha",
+            "Email": "ashaiksha@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=ashaiksha@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Commercial Specialist"
+        },
+        "AssignedPerson#Claims": "i:0#.f|membership|ashaiksha@tq.com",
+        "TenderDescription": "Coiled Tubing Services",
+        "Remarks": "3 + 1 + 1 year",
+        "TenderStatus": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "Under Initial Approval"
+        },
+        "TenderStatus#Id": 2,
+        "DateReceived": "2025-12-29",
+        "SubmissionDate": "2026-02-08",
+        "Year": "2026",
+        "TypeofAward": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 1,
+            "Value": "Multiple"
+        },
+        "TypeofAward#Id": 1,
+        "QuotedValue_x0028_USD_x0029_": 0,
+        "CAPEXValue_x0028_USD_x0029_": 0,
+        "GrossMargin_x0025_": 0,
+        "EBITDA_x0025_": 0,
+        "EBIT_x0025_": 0,
+        "NetProfit_x0025_": 0,
+        "ROI_x0025_": 0,
+        "WinningProbability": 0,
+        "BidValidity0": 180,
+        "Bid_x0020_Expiry_x0020_Calculate": "2026-08-06T20:00:00Z",
+        "BidValidity": "2026-07-16",
+        "Incumbent": "AMPS",
+        "EVP_x002f_CEOApproval": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 4,
+            "Value": "ExComm"
+        },
+        "EVP_x002f_CEOApproval#Id": 4,
+        "TenderReviewStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 5,
+            "Value": "Ongoing"
+        },
+        "TenderReviewStage#Id": 5,
+        "ApprovalStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Not yet started"
+        },
+        "ApprovalStage#Id": 0,
+        "TenderWorkingGroup": [
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|spallath@tq.com",
+                "DisplayName": "Sachdev Pallath",
+                "Email": "spallath@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=spallath@tq.com",
+                "Department": "Commercial & Sales",
+                "JobTitle": "Senior Commercial Analyst"
+            },
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|faljabri@tq.com",
+                "DisplayName": "Faisal Al Jabri",
+                "Email": "faljabri@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=faljabri@tq.com",
+                "Department": "Commercial & Sales",
+                "JobTitle": "Senior Commercial Manager"
+            },
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|ashaiksha@tq.com",
+                "DisplayName": "Abdul Rahim Shaiksha",
+                "Email": "ashaiksha@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=ashaiksha@tq.com",
+                "Department": "Commercial & Sales",
+                "JobTitle": "Commercial Specialist"
+            },
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|mvallupparambil@tq.com",
+                "DisplayName": "Muhammed Shafeek",
+                "Email": "mvallupparambil@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=mvallupparambil@tq.com",
+                "Department": "Commercial & Sales",
+                "JobTitle": "Commercial Specialist"
+            },
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|kumail.zubail@tq.com",
+                "DisplayName": "Kumail Al Zubail",
+                "Email": "kumail.zubail@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kumail.zubail@tq.com",
+                "Department": "Well Intervention & Stimulation",
+                "JobTitle": "Senior Technical & Sales Manager"
+            },
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|mohomed.nawfel@tq.com",
+                "DisplayName": "Mohomed Imran Nawfel",
+                "Email": "mohomed.nawfel@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=mohomed.nawfel@tq.com",
+                "Department": "Well Intervention and Stimulation",
+                "JobTitle": "Frac Finance Lead"
+            },
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|wael.elgeddawy@tq.com",
+                "DisplayName": "Wael Elgeddawy",
+                "Email": "wael.elgeddawy@TQ.COM",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=wael.elgeddawy@TQ.COM",
+                "Department": "Well Testing Services",
+                "JobTitle": "Technical and Sales Director"
+            },
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|kyoussef@tq.com",
+                "DisplayName": "Karim Youssef",
+                "Email": "kyoussef@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kyoussef@tq.com",
+                "Department": "Commercial & Sales",
+                "JobTitle": "Commercial Manager"
+            }
+        ],
+        "TenderWorkingGroup@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser)",
+        "TenderWorkingGroup#Claims": [
+            "i:0#.f|membership|spallath@tq.com",
+            "i:0#.f|membership|faljabri@tq.com",
+            "i:0#.f|membership|ashaiksha@tq.com",
+            "i:0#.f|membership|mvallupparambil@tq.com",
+            "i:0#.f|membership|kumail.zubail@tq.com",
+            "i:0#.f|membership|mohomed.nawfel@tq.com",
+            "i:0#.f|membership|wael.elgeddawy@tq.com",
+            "i:0#.f|membership|kyoussef@tq.com"
+        ],
+        "TenderWorkingGroup#Claims@odata.type": "#Collection(String)",
+        "EstimatedContractValue_x0028_USD0": 30000000,
+        "EstimatedAnnualRevenue_x0028_USD": 6000000,
+        "EstimatedCAPEXValue_x0028_USD_x0": 0,
+        "EstimatedContractValue_x0028_USD": "Estimatd for 5 Year",
+        "EstimatedYearlyRevenue_x0028_USD": "Yearly Estimate",
+        "FolderLink": "https://taqa1.sharepoint.com/:f:/s/AMPS-AlMansooriCommercial/IgBa2MPcAsozQ6vAkPCQ2lYtAeTGVJ0RyBvDm6Kdj3cHo40?e=ocGffm",
+        "Bidding_x0020_Entity": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 13,
+            "Value": "AlMansoori Petroleum Services (Foreign Branch)"
+        },
+        "Bidding_x0020_Entity#Id": 13,
+        "BidCurrency": "US Dollar",
+        "Created": "2025-12-30T06:19:53Z",
+        "Author": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|ashaiksha@tq.com",
+            "DisplayName": "Abdul Rahim Shaiksha",
+            "Email": "ashaiksha@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=ashaiksha@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Commercial Specialist"
+        },
+        "Author#Claims": "i:0#.f|membership|ashaiksha@tq.com",
+        "Modified": "2026-01-14T14:04:06Z",
+        "Editor": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|atkachyov@tq.com",
+            "DisplayName": "Aleksey Tkachyov",
+            "Email": "atkachyov@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=atkachyov@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Contract Performance Director"
+        },
+        "Editor#Claims": "i:0#.f|membership|atkachyov@tq.com",
+        "ESTIMATED_REQUIRED": false,
+        "AREA": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "NME"
+        },
+        "AREA#Id": 0,
+        "{Identifier}": "Lists%252fTender%2bStatus%2bTracker%252f2136_.000",
+        "{IsFolder}": false,
+        "{Thumbnail}": {
+            "Large": null,
+            "Medium": null,
+            "Small": null
+        },
+        "{Link}": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/listform.aspx?PageType=4&ListId=c1ae7e37%2D1026%2D45cb%2D9f45%2D631016eb899e&ID=2136&ContentTypeID=0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{Name}": "787/2025/BTB (TP-1311-2025)",
+        "{FilenameWithExtension}": "787/2025/BTB (TP-1311-2025)",
+        "{Path}": "Lists/Tender Status Tracker/",
+        "{FullPath}": "Lists/Tender Status Tracker/2136_.000",
+        "{ContentType}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+            "Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+            "Name": "Item"
+        },
+        "{ContentType}#Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{HasAttachments}": false,
+        "{VersionNumber}": "32.0",
+        "{ApprovalStatus}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedApprovalStatus",
+            "Value": 0,
+            "Label": "Not submitted"
+        },
+        "{ApprovalStatus}#Value": 0
+    },
+    {
+        "@odata.etag": "\"88\"",
+        "ItemInternalId": "2062",
+        "ID": 2062,
+        "Title": "RFP - 2149105",
+        "Country": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 10,
+            "Value": "KUWAIT"
+        },
+        "Country#Id": 10,
+        "PSL": [
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+                "Id": 8,
+                "Value": "EPF"
+            }
+        ],
+        "PSL@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference)",
+        "PSL#Id": [
+            8
+        ],
+        "PSL#Id@odata.type": "#Collection(Int64)",
+        "Cust_x002e_Ref_x002e_No": "T2026-EPF02062",
+        "CustomerName": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 602,
+            "Value": "KUWAIT OIL COMPANY"
+        },
+        "CustomerName#Id": 602,
+        "Customer_x0020_Name_x003a__x0020": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 602,
+            "Value": "KUWAIT OIL COMPANY"
+        },
+        "Customer_x0020_Name_x003a__x0020#Id": 602,
+        "DOA_x0020_Final_x0020_Approver": "ExCom",
+        "OpportunityType": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "TENDER"
+        },
+        "OpportunityType#Id": 0,
+        "TypeofTender": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "Technical & Commercial"
+        },
+        "TypeofTender#Id": 2,
+        "Category": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "T1"
+        },
+        "Category#Id": 0,
+        "AssignedPerson": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|kkaiumov@tq.com",
+            "DisplayName": "Kirill Kaiumov",
+            "Email": "kkaiumov@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kkaiumov@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Senior Commercial Manager"
+        },
+        "AssignedPerson#Claims": "i:0#.f|membership|kkaiumov@tq.com",
+        "TenderDescription": "Rental Services for Separation and Water Disposal Facility at GC-11",
+        "Remarks": "9 months EPC | 12 months O&M | 3 months Decommissioning ",
+        "TenderStatus": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Bid Preparation"
+        },
+        "TenderStatus#Id": 0,
+        "DateReceived": "2025-11-20",
+        "SubmissionDate": "2026-02-09",
+        "Year": "2026",
+        "TypeofAward": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Single"
+        },
+        "TypeofAward#Id": 0,
+        "QuotedValue_x0028_USD_x0029_": 0,
+        "CAPEXValue_x0028_USD_x0029_": 0,
+        "GrossMargin_x0025_": 0,
+        "EBITDA_x0025_": 0,
+        "EBIT_x0025_": 0,
+        "NetProfit_x0025_": 0,
+        "ROI_x0025_": 0,
+        "WinningProbability": 0,
+        "BidValidity0": 90,
+        "Bid_x0020_Expiry_x0020_Calculate": "2026-05-09T20:00:00Z",
+        "BidValidity": "2026-05-09",
+        "Incumbent": "n/a",
+        "EVP_x002f_CEOApproval": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 4,
+            "Value": "ExComm"
+        },
+        "EVP_x002f_CEOApproval#Id": 4,
+        "TenderReviewStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 6,
+            "Value": "Approved"
+        },
+        "TenderReviewStage#Id": 6,
+        "ApprovalStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Not yet started"
+        },
+        "ApprovalStage#Id": 0,
+        "TenderWorkingGroup": [],
+        "TenderWorkingGroup@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser)",
+        "TenderWorkingGroup#Claims": [],
+        "TenderWorkingGroup#Claims@odata.type": "#Collection(String)",
+        "EstimatedContractValue_x0028_USD0": 14000000,
+        "EstimatedAnnualRevenue_x0028_USD": 14000000,
+        "EstimatedCAPEXValue_x0028_USD_x0": 5000000,
+        "EstimatedContractValue_x0028_USD": "14,000,000",
+        "EstimatedYearlyRevenue_x0028_USD": "14,000,000",
+        "CAPEXInformation": "Detailed Engineering works, Separator 50 MBLPD, Flare package, utilities, tie-in piping, civil and E&I works.   ",
+        "FolderLink": "https://taqa1.sharepoint.com/:f:/s/AMPS-AlMansooriCommercial/EsaoLZvWnORMvKpZ2nDbkiIBSwSA3f9lbOf7CoM8d_DlTw",
+        "Bidding_x0020_Entity": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 17,
+            "Value": "AlMansoori Production Services Company LLC"
+        },
+        "Bidding_x0020_Entity#Id": 17,
+        "BidCurrency": "Kuwaiti Dinars (KD)",
+        "Competition_x002f_MarketAnalysis": "https://taqa1.sharepoint.com/:x:/s/AMPS-AlMansooriCommercial/ERMCdxvqVmlFqxaubsj0MOEBggmVrPvTliy6iKQ226YmgA?e=1I9kVu",
+        "Created": "2025-11-20T10:36:53Z",
+        "Author": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|fkhan@tq.com",
+            "DisplayName": "Fahad Ahmed Khan",
+            "Email": "fkhan@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=fkhan@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Commercial Analyst"
+        },
+        "Author#Claims": "i:0#.f|membership|fkhan@tq.com",
+        "Modified": "2026-01-14T13:54:08Z",
+        "Editor": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|atkachyov@tq.com",
+            "DisplayName": "Aleksey Tkachyov",
+            "Email": "atkachyov@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=atkachyov@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Contract Performance Director"
+        },
+        "Editor#Claims": "i:0#.f|membership|atkachyov@tq.com",
+        "ESTIMATED_REQUIRED": false,
+        "AREA": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "NME"
+        },
+        "AREA#Id": 0,
+        "{Identifier}": "Lists%252fTender%2bStatus%2bTracker%252f2062_.000",
+        "{IsFolder}": false,
+        "{Thumbnail}": {
+            "Large": null,
+            "Medium": null,
+            "Small": null
+        },
+        "{Link}": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/listform.aspx?PageType=4&ListId=c1ae7e37%2D1026%2D45cb%2D9f45%2D631016eb899e&ID=2062&ContentTypeID=0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{Name}": "RFP - 2149105",
+        "{FilenameWithExtension}": "RFP - 2149105",
+        "{Path}": "Lists/Tender Status Tracker/",
+        "{FullPath}": "Lists/Tender Status Tracker/2062_.000",
+        "{ContentType}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+            "Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+            "Name": "Item"
+        },
+        "{ContentType}#Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{HasAttachments}": false,
+        "{VersionNumber}": "88.0",
+        "{ApprovalStatus}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedApprovalStatus",
+            "Value": 0,
+            "Label": "Not submitted"
+        },
+        "{ApprovalStatus}#Value": 0
+    },
+    {
+        "@odata.etag": "\"74\"",
+        "ItemInternalId": "2154",
+        "ID": 2154,
+        "Title": "1100000217",
+        "Country": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 9,
+            "Value": "TURKEY"
+        },
+        "Country#Id": 9,
+        "PSL": [
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+                "Id": 2,
+                "Value": "CTSS"
+            }
+        ],
+        "PSL@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference)",
+        "PSL#Id": [
+            2
+        ],
+        "PSL#Id@odata.type": "#Collection(Int64)",
+        "Cust_x002e_Ref_x002e_No": "T2026-CTS02154",
+        "CustomerName": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 416,
+            "Value": "TURKISH PETROLEUM CORPORATION (TPAO)"
+        },
+        "CustomerName#Id": 416,
+        "Customer_x0020_Name_x003a__x0020": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 416,
+            "Value": "TPAO"
+        },
+        "Customer_x0020_Name_x003a__x0020#Id": 416,
+        "DOA_x0020_Final_x0020_Approver": "COO",
+        "OpportunityType": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "TENDER"
+        },
+        "OpportunityType#Id": 0,
+        "TypeofTender": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 2,
+            "Value": "Technical & Commercial"
+        },
+        "TypeofTender#Id": 2,
+        "Category": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 1,
+            "Value": "T2"
+        },
+        "Category#Id": 1,
+        "AssignedPerson": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|ashaiksha@tq.com",
+            "DisplayName": "Abdul Rahim Shaiksha",
+            "Email": "ashaiksha@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=ashaiksha@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Commercial Specialist"
+        },
+        "AssignedPerson#Claims": "i:0#.f|membership|ashaiksha@tq.com",
+        "TenderDescription": "Coiled Tubing Services for 2 years period",
+        "Remarks": "2 Years",
+        "TenderStatus": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Bid Preparation"
+        },
+        "TenderStatus#Id": 0,
+        "DateReceived": "2026-01-09",
+        "SubmissionDate": "2026-02-10",
+        "Year": "2026",
+        "TypeofAward": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Single"
+        },
+        "TypeofAward#Id": 0,
+        "QuotedValue_x0028_USD_x0029_": 0,
+        "CAPEXValue_x0028_USD_x0029_": 0,
+        "GrossMargin_x0025_": 0,
+        "EBITDA_x0025_": 0,
+        "EBIT_x0025_": 0,
+        "NetProfit_x0025_": 0,
+        "ROI_x0025_": 0,
+        "WinningProbability": 0,
+        "BidValidity0": 60,
+        "Bid_x0020_Expiry_x0020_Calculate": "2026-04-10T20:00:00Z",
+        "BidValidity": "2026-04-10",
+        "Incumbent": "Viking International (VIL) and Pars",
+        "EVP_x002f_CEOApproval": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 3,
+            "Value": "CEO"
+        },
+        "EVP_x002f_CEOApproval#Id": 3,
+        "TenderReviewStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 6,
+            "Value": "Approved"
+        },
+        "TenderReviewStage#Id": 6,
+        "ApprovalStage": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "Not yet started"
+        },
+        "ApprovalStage#Id": 0,
+        "TenderWorkingGroup": [
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|ashaiksha@tq.com",
+                "DisplayName": "Abdul Rahim Shaiksha",
+                "Email": "ashaiksha@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=ashaiksha@tq.com",
+                "Department": "Commercial & Sales",
+                "JobTitle": "Commercial Specialist"
+            },
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|sshiraz@tq.com",
+                "DisplayName": "Sainudeen Shiraz",
+                "Email": "sshiraz@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=sshiraz@tq.com",
+                "Department": "Commercial & Sales",
+                "JobTitle": "Commercial Lead"
+            },
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|mmajeed@tq.com",
+                "DisplayName": "Mohammed Nahaf  Majeed",
+                "Email": "mmajeed@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=mmajeed@tq.com",
+                "Department": "Commercial & Sales",
+                "JobTitle": "Senior Commercial Analyst"
+            },
+            {
+                "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+                "Claims": "i:0#.f|membership|faljabri@tq.com",
+                "DisplayName": "Faisal Al Jabri",
+                "Email": "faljabri@tq.com",
+                "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=faljabri@tq.com",
+                "Department": "Commercial & Sales",
+                "JobTitle": "Senior Commercial Manager"
+            }
+        ],
+        "TenderWorkingGroup@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser)",
+        "TenderWorkingGroup#Claims": [
+            "i:0#.f|membership|ashaiksha@tq.com",
+            "i:0#.f|membership|sshiraz@tq.com",
+            "i:0#.f|membership|mmajeed@tq.com",
+            "i:0#.f|membership|faljabri@tq.com"
+        ],
+        "TenderWorkingGroup#Claims@odata.type": "#Collection(String)",
+        "EstimatedContractValue_x0028_USD0": 4500000,
+        "EstimatedAnnualRevenue_x0028_USD": 2250000,
+        "EstimatedCAPEXValue_x0028_USD_x0": 0,
+        "EstimatedContractValue_x0028_USD": "Average contract value existing contractors",
+        "CAPEXInformation": "Capex value will be finalized later.",
+        "FolderLink": "https://taqa1.sharepoint.com/:f:/s/AMPS-AlMansooriCommercial/IgDtaoTJN1KqSIB8dyyVmisCATpXV9b7GO5tQvhSORsNtOM",
+        "Bidding_x0020_Entity": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 31,
+            "Value": "Cougar Sondaj Hizmetleri Tic. Ve San. Ltd"
+        },
+        "Bidding_x0020_Entity#Id": 31,
+        "BidCurrency": "USD",
+        "Created": "2026-01-12T06:08:56Z",
+        "Author": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|mmajeed@tq.com",
+            "DisplayName": "Mohammed Nahaf  Majeed",
+            "Email": "mmajeed@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=mmajeed@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Senior Commercial Analyst"
+        },
+        "Author#Claims": "i:0#.f|membership|mmajeed@tq.com",
+        "Modified": "2026-01-26T05:42:05Z",
+        "Editor": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+            "Claims": "i:0#.f|membership|mmajeed@tq.com",
+            "DisplayName": "Mohammed Nahaf  Majeed",
+            "Email": "mmajeed@tq.com",
+            "Picture": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/UserPhoto.aspx?Size=L&AccountName=mmajeed@tq.com",
+            "Department": "Commercial & Sales",
+            "JobTitle": "Senior Commercial Analyst"
+        },
+        "Editor#Claims": "i:0#.f|membership|mmajeed@tq.com",
+        "ESTIMATED_REQUIRED": true,
+        "AREA": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+            "Id": 0,
+            "Value": "NME"
+        },
+        "AREA#Id": 0,
+        "{Identifier}": "Lists%252fTender%2bStatus%2bTracker%252f2154_.000",
+        "{IsFolder}": false,
+        "{Thumbnail}": {
+            "Large": null,
+            "Medium": null,
+            "Small": null
+        },
+        "{Link}": "https://taqa1.sharepoint.com/sites/AMPS-AlMansooriCommercial/_layouts/15/listform.aspx?PageType=4&ListId=c1ae7e37%2D1026%2D45cb%2D9f45%2D631016eb899e&ID=2154&ContentTypeID=0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{Name}": "1100000217",
+        "{FilenameWithExtension}": "1100000217",
+        "{Path}": "Lists/Tender Status Tracker/",
+        "{FullPath}": "Lists/Tender Status Tracker/2154_.000",
+        "{ContentType}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+            "Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+            "Name": "Item"
+        },
+        "{ContentType}#Id": "0x01003F7B6A8D8B05AE45B0C30B8804FF878F0059B8F59322201D4699CCE39EFE95BA8F",
+        "{HasAttachments}": false,
+        "{VersionNumber}": "74.0",
+        "{ApprovalStatus}": {
+            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedApprovalStatus",
+            "Value": 0,
+            "Label": "Not submitted"
+        },
+        "{ApprovalStatus}#Value": 0
+    }
+]

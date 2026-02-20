@@ -1,0 +1,148 @@
+erDiagram
+    categories {
+        SERIAL id PK
+        VARCHAR name UK
+        INTEGER sort_order
+        TIMESTAMPTZ created_at
+        TIMESTAMPTZ updated_at
+    }
+
+    roles {
+        SERIAL id PK
+        VARCHAR name UK
+        INTEGER sort_order
+        BOOLEAN is_active
+        TIMESTAMPTZ created_at
+        TIMESTAMPTZ updated_at
+    }
+
+    countries {
+        SERIAL id PK
+        VARCHAR name UK
+        VARCHAR risk_level "safe | special | high_risk"
+        TIMESTAMPTZ created_at
+        TIMESTAMPTZ updated_at
+    }
+
+    users {
+        UUID id PK
+        VARCHAR azure_oid UK
+        VARCHAR email
+        VARCHAR display_name
+        VARCHAR role "admin | viewer"
+        BOOLEAN is_active
+        TIMESTAMPTZ last_login_at
+        TIMESTAMPTZ created_at
+        TIMESTAMPTZ updated_at
+    }
+
+    doa_items {
+        SERIAL id PK
+        VARCHAR code UK
+        TEXT description
+        VARCHAR applies_to
+        INTEGER category_id FK
+        VARCHAR business_owner
+        VARCHAR delegable
+        TEXT interpretation
+        TIMESTAMPTZ created_at
+        TIMESTAMPTZ updated_at
+    }
+
+    doa_item_approvers {
+        SERIAL id PK
+        INTEGER doa_item_id FK
+        INTEGER role_id FK
+        VARCHAR action
+        INTEGER sort_order
+    }
+
+    thresholds {
+        SERIAL id PK
+        VARCHAR threshold_id UK
+        threshold_type type "high_risk | non_binding | commercial | direct_sales | direct_sales_markup | epf"
+        VARCHAR name
+        VARCHAR code
+        BIGINT min_value
+        BIGINT max_value
+        BIGINT min_capex
+        BIGINT max_capex
+        NUMERIC min_markup
+        NUMERIC max_markup
+        NUMERIC max_gross_margin
+        TEXT condition_text
+        TEXT notes
+        INTEGER sort_order
+        TIMESTAMPTZ created_at
+        TIMESTAMPTZ updated_at
+    }
+
+    threshold_approvers {
+        SERIAL id PK
+        INTEGER threshold_id FK
+        INTEGER role_id FK
+        VARCHAR action
+        VARCHAR label
+        INTEGER sort_order
+    }
+
+    browse_items {
+        SERIAL id PK
+        VARCHAR code
+        VARCHAR parent_code
+        TEXT title
+        VARCHAR description
+        TEXT comments
+        VARCHAR function_name
+        INTEGER sort_order
+        TIMESTAMPTZ created_at
+        TIMESTAMPTZ updated_at
+    }
+
+    browse_item_approvers {
+        SERIAL id PK
+        INTEGER browse_item_id FK
+        INTEGER role_id FK
+        VARCHAR action
+        CHAR kind
+        INTEGER sort_order
+    }
+
+    app_settings {
+        SERIAL id PK
+        VARCHAR key UK
+        JSONB value
+        UUID updated_by
+        TIMESTAMPTZ updated_at
+    }
+
+    audit_log {
+        BIGSERIAL id PK
+        UUID user_id FK
+        VARCHAR action
+        VARCHAR entity_type
+        VARCHAR entity_id
+        JSONB old_value
+        JSONB new_value
+        INET ip_address
+        TIMESTAMPTZ created_at
+    }
+
+    glossary {
+        SERIAL id PK
+        CHAR code UK
+        VARCHAR name
+        TEXT description
+        INTEGER sort_order
+    }
+
+    %% Relationships
+    categories ||--o{ doa_items : "has many"
+    doa_items ||--o{ doa_item_approvers : "has many"
+    roles ||--o{ doa_item_approvers : "approves"
+    thresholds ||--o{ threshold_approvers : "has many"
+    roles ||--o{ threshold_approvers : "approves"
+    browse_items ||--o{ browse_item_approvers : "has many"
+    roles ||--o{ browse_item_approvers : "approves"
+    browse_items o|--o{ browse_items : "parent_code self-ref"
+    users ||--o{ audit_log : "performed"
