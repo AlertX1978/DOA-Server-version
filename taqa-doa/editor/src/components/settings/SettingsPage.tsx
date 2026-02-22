@@ -11,6 +11,7 @@ import type { AppSetting } from '../../types';
 
 interface RowState {
   localValue: string;
+  originalValue: string;
   isBool: boolean;
   saving: boolean;
 }
@@ -42,8 +43,10 @@ export default function SettingsPage() {
   const buildRowStates = (settings: AppSetting[]): Record<string, RowState> => {
     const states: Record<string, RowState> = {};
     for (const s of settings) {
+      const val = isBooleanValue(s.value) ? String(s.value) : toDisplayString(s.value);
       states[s.key] = {
-        localValue: isBooleanValue(s.value) ? String(s.value) : toDisplayString(s.value),
+        localValue: val,
+        originalValue: val,
         isBool: isBooleanValue(s.value),
         saving: false,
       };
@@ -78,6 +81,18 @@ export default function SettingsPage() {
       ...prev,
       [key]: { ...prev[key], localValue },
     }));
+  };
+
+  const cancelRow = (key: string) => {
+    setRowStates((prev) => ({
+      ...prev,
+      [key]: { ...prev[key], localValue: prev[key].originalValue },
+    }));
+  };
+
+  const isRowDirty = (key: string): boolean => {
+    const row = rowStates[key];
+    return row ? row.localValue !== row.originalValue : false;
   };
 
   // ---- save one setting ----
@@ -226,25 +241,46 @@ export default function SettingsPage() {
                   )}
                 </div>
 
-                {/* Save button */}
-                <button
-                  onClick={() => handleSave(setting)}
-                  disabled={row.saving}
-                  style={{
-                    padding: '6px 18px',
-                    borderRadius: 6,
-                    border: 'none',
-                    background: `linear-gradient(135deg, ${COLORS.primary}, ${COLORS.primaryLight})`,
-                    color: '#FFFFFF',
-                    fontSize: 13,
-                    fontWeight: 600,
-                    cursor: row.saving ? 'not-allowed' : 'pointer',
-                    opacity: row.saving ? 0.7 : 1,
-                    whiteSpace: 'nowrap',
-                  }}
-                >
-                  {row.saving ? 'Saving...' : 'Save'}
-                </button>
+                {/* Save / Cancel buttons — visible only when row is dirty */}
+                {isRowDirty(setting.key) && (
+                  <div style={{ display: 'flex', gap: 6 }}>
+                    <button
+                      onClick={() => cancelRow(setting.key)}
+                      disabled={row.saving}
+                      style={{
+                        padding: '6px 14px',
+                        borderRadius: 6,
+                        backgroundColor: theme.tagBg,
+                        color: theme.text,
+                        fontSize: 13,
+                        fontWeight: 500,
+                        border: `1px solid ${theme.cardBorder}`,
+                        cursor: row.saving ? 'not-allowed' : 'pointer',
+                        whiteSpace: 'nowrap',
+                      }}
+                    >
+                      Cancel
+                    </button>
+                    <button
+                      onClick={() => handleSave(setting)}
+                      disabled={row.saving}
+                      style={{
+                        padding: '6px 18px',
+                        borderRadius: 6,
+                        border: 'none',
+                        background: `linear-gradient(135deg, ${COLORS.primary}, ${COLORS.primaryLight})`,
+                        color: '#FFFFFF',
+                        fontSize: 13,
+                        fontWeight: 600,
+                        cursor: row.saving ? 'not-allowed' : 'pointer',
+                        opacity: row.saving ? 0.7 : 1,
+                        whiteSpace: 'nowrap',
+                      }}
+                    >
+                      {row.saving ? 'Saving...' : 'Save'}
+                    </button>
+                  </div>
+                )}
               </div>
             );
           })}
