@@ -7,6 +7,9 @@ import {
   toggleUserActiveHandler,
   listThresholdsHandler,
   updateThresholdHandler,
+  createThresholdHandler,
+  deleteThresholdHandler,
+  replaceThresholdApproversHandler,
   listRolesHandler,
   createRoleHandler,
   updateRoleHandler,
@@ -14,6 +17,10 @@ import {
   updateCountryRiskHandler,
   addCountryHandler,
   deleteCountryHandler,
+  listGlossaryHandler,
+  createGlossaryHandler,
+  updateGlossaryHandler,
+  deleteGlossaryHandler,
 } from '../controllers/admin.controller';
 
 const router = Router();
@@ -49,8 +56,17 @@ router.put('/users/:id/active', toggleUserActiveHandler);
 // GET    /api/v1/admin/thresholds
 router.get('/thresholds', listThresholdsHandler);
 
+// POST   /api/v1/admin/thresholds
+router.post('/thresholds', createThresholdHandler);
+
 // PUT    /api/v1/admin/thresholds/:thresholdId
 router.put('/thresholds/:thresholdId', updateThresholdHandler);
+
+// DELETE /api/v1/admin/thresholds/:id
+router.delete('/thresholds/:id', deleteThresholdHandler);
+
+// PUT    /api/v1/admin/thresholds/:id/approvers
+router.put('/thresholds/:id/approvers', replaceThresholdApproversHandler);
 
 // ---------------------------------------------------------------------------
 // Roles
@@ -80,5 +96,44 @@ router.post('/countries', addCountryHandler);
 
 // DELETE /api/v1/admin/countries/:id
 router.delete('/countries/:id', deleteCountryHandler);
+
+// ---------------------------------------------------------------------------
+// Categories
+// ---------------------------------------------------------------------------
+
+import {
+  listCategoriesHandler,
+  createCategoryHandler,
+  updateCategoryHandler,
+  deleteCategoryHandler,
+} from '../controllers/admin-browse.controller';
+
+// GET    /api/v1/admin/categories
+router.get('/categories', listCategoriesHandler);
+
+// POST   /api/v1/admin/categories
+router.post('/categories', createCategoryHandler);
+
+// PUT    /api/v1/admin/categories/:id
+router.put('/categories/:id', updateCategoryHandler);
+
+// DELETE /api/v1/admin/categories/:id
+router.delete('/categories/:id', deleteCategoryHandler);
+
+// ---------------------------------------------------------------------------
+// Glossary
+// ---------------------------------------------------------------------------
+
+// GET    /api/v1/admin/glossary
+router.get('/glossary', listGlossaryHandler);
+
+// POST   /api/v1/admin/glossary
+router.post('/glossary', createGlossaryHandler);
+
+// PUT    /api/v1/admin/glossary/:id
+router.put('/glossary/:id', updateGlossaryHandler);
+
+// DELETE /api/v1/admin/glossary/:id
+router.delete('/glossary/:id', deleteGlossaryHandler);
 
 export default router;

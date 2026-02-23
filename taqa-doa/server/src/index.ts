@@ -14,6 +14,9 @@ import browseRoutes from './routes/browse.routes';
 import settingsRoutes from './routes/settings.routes';
 import glossaryRoutes from './routes/glossary.routes';
 import adminRoutes from './routes/admin.routes';
+import adminBrowseRoutes from './routes/admin-browse.routes';
+import adminDoaItemsRoutes from './routes/admin-doa-items.routes';
+import adminImportExportRoutes from './routes/admin-import-export.routes';
 
 const app = express();
 
@@ -80,6 +83,9 @@ app.use('/api/v1/browse', requireAuth, browseRoutes);
 app.use('/api/v1/settings', requireAuth, settingsRoutes);
 app.use('/api/v1/glossary', requireAuth, glossaryRoutes);
 app.use('/api/v1/admin', adminRoutes);
+app.use('/api/v1/admin/browse-items', adminBrowseRoutes);
+app.use('/api/v1/admin/doa-items', adminDoaItemsRoutes);
+app.use('/api/v1/admin/import-export', adminImportExportRoutes);
 
 // ---------------------------------------------------------------------------
 // Error handling

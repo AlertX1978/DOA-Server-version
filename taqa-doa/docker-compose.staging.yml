@@ -1,0 +1,85 @@
+services:
+  db:
+    image: postgres:16-alpine
+    restart: always
+    environment:
+      POSTGRES_DB: taqa_doa
+      POSTGRES_USER: ${PG_USER}
+      POSTGRES_PASSWORD: ${PG_PASSWORD}
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata_staging:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${PG_USER} -d taqa_doa"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    networks:
+      - doa-network
+
+  server:
+    image: ${ACR_REGISTRY}/doa-server:staging
+    restart: always
+    environment:
+      NODE_ENV: production
+      DATABASE_URL: postgresql://${PG_USER}:${PG_PASSWORD}@db:5432/taqa_doa
+      PORT: 3000
+      CORS_ORIGIN: ${CORS_ORIGIN}
+      AZURE_TENANT_ID: ${AZURE_TENANT_ID}
+      AZURE_CLIENT_ID: ${AZURE_CLIENT_ID}
+      AZURE_CLIENT_SECRET: ${AZURE_CLIENT_SECRET}
+      LOG_LEVEL: debug
+    ports:
+      - "3001:3000"
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - doa-network
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:3000/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  client:
+    image: ${ACR_REGISTRY}/doa-client:staging
+    restart: always
+    environment:
+      API_BACKEND_URL: ${API_BACKEND_URL}
+    ports:
+      - "5175:80"
+    depends_on:
+      - server
+    networks:
+      - doa-network
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:80"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  editor:
+    image: ${ACR_REGISTRY}/doa-editor:staging
+    restart: always
+    environment:
+      API_BACKEND_URL: ${API_BACKEND_URL}
+    ports:
+      - "5176:80"
+    depends_on:
+      - server
+    networks:
+      - doa-network
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:80"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+networks:
+  doa-network:
+    driver: bridge
+
+volumes:
+  pgdata_staging:

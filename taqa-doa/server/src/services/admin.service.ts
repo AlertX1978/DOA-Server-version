@@ -1,4 +1,4 @@
-import { query } from '../config/database';
+import { query, pool } from '../config/database';
 
 // ---------------------------------------------------------------------------
 // Types
@@ -478,5 +478,258 @@ export async function deleteCountry(
 
   if (userId && oldRow) {
     await writeAuditLog(userId, 'delete', 'country', String(id), oldRow, null);
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Thresholds – create, delete, replace approvers
+// ---------------------------------------------------------------------------
+
+/**
+ * Create a new threshold.
+ */
+export async function createThreshold(
+  data: {
+    threshold_id: string;
+    type: string;
+    name: string;
+    code: string;
+    min_value?: number | null;
+    max_value?: number | null;
+    min_capex?: number | null;
+    max_capex?: number | null;
+    min_markup?: number | null;
+    max_markup?: number | null;
+    max_gross_margin?: number | null;
+    condition_text?: string | null;
+    notes?: string | null;
+    sort_order?: number;
+  },
+  userId?: string
+): Promise<Omit<ThresholdRow, 'approvers'>> {
+  const result = await query<Omit<ThresholdRow, 'approvers'>>(
+    `INSERT INTO thresholds (threshold_id, type, name, code, min_value, max_value,
+       min_capex, max_capex, min_markup, max_markup, max_gross_margin,
+       condition_text, notes, sort_order)
+     VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14)
+     RETURNING *`,
+    [
+      data.threshold_id,
+      data.type,
+      data.name,
+      data.code,
+      data.min_value ?? null,
+      data.max_value ?? null,
+      data.min_capex ?? null,
+      data.max_capex ?? null,
+      data.min_markup ?? null,
+      data.max_markup ?? null,
+      data.max_gross_margin ?? null,
+      data.condition_text ?? null,
+      data.notes ?? null,
+      data.sort_order ?? 0,
+    ]
+  );
+
+  if (userId) {
+    await writeAuditLog(userId, 'create', 'threshold', String(result.rows[0].id), null, result.rows[0]);
+  }
+
+  return result.rows[0];
+}
+
+/**
+ * Delete a threshold by ID.
+ */
+export async function deleteThreshold(
+  id: number,
+  userId?: string
+): Promise<void> {
+  const oldResult = await query<Omit<ThresholdRow, 'approvers'>>(
+    `SELECT * FROM thresholds WHERE id = $1`,
+    [id]
+  );
+  const oldRow = oldResult.rows[0];
+
+  await query(`DELETE FROM thresholds WHERE id = $1`, [id]);
+
+  if (userId && oldRow) {
+    await writeAuditLog(userId, 'delete', 'threshold', String(id), oldRow, null);
+  }
+}
+
+/**
+ * Replace all approvers for a threshold (delete + insert in transaction).
+ */
+export async function replaceThresholdApprovers(
+  thresholdId: number,
+  approvers: Array<{ role_id: number; action: string; label: string; sort_order: number }>,
+  userId?: string
+): Promise<ThresholdApprover[]> {
+  const oldResult = await query<{
+    role_id: number;
+    role_name: string;
+    action: string;
+    label: string;
+    sort_order: number;
+  }>(
+    `SELECT ta.role_id, r.name AS role_name, ta.action, ta.label, ta.sort_order
+     FROM threshold_approvers ta
+     JOIN roles r ON r.id = ta.role_id
+     WHERE ta.threshold_id = $1
+     ORDER BY ta.sort_order`,
+    [thresholdId]
+  );
+
+  const client = await pool.connect();
+  try {
+    await client.query('BEGIN');
+
+    await client.query(
+      `DELETE FROM threshold_approvers WHERE threshold_id = $1`,
+      [thresholdId]
+    );
+
+    const inserted: ThresholdApprover[] = [];
+    for (const approver of approvers) {
+      await client.query(
+        `INSERT INTO threshold_approvers (threshold_id, role_id, action, label, sort_order)
+         VALUES ($1, $2, $3, $4, $5)`,
+        [thresholdId, approver.role_id, approver.action, approver.label, approver.sort_order]
+      );
+
+      const roleResult = await client.query<{ name: string }>(
+        `SELECT name FROM roles WHERE id = $1`,
+        [approver.role_id]
+      );
+
+      inserted.push({
+        role: roleResult.rows[0]?.name || '',
+        action: approver.action,
+        label: approver.label,
+        sort_order: approver.sort_order,
+      });
+    }
+
+    await client.query('COMMIT');
+
+    if (userId) {
+      await writeAuditLog(userId, 'update', 'threshold_approvers', String(thresholdId), oldResult.rows, approvers);
+    }
+
+    return inserted;
+  } catch (err) {
+    await client.query('ROLLBACK');
+    throw err;
+  } finally {
+    client.release();
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Glossary
+// ---------------------------------------------------------------------------
+
+export interface GlossaryRow {
+  id: number;
+  code: string;
+  name: string;
+  description: string | null;
+  sort_order: number;
+}
+
+export async function getGlossary(): Promise<GlossaryRow[]> {
+  const result = await query<GlossaryRow>(
+    `SELECT id, code, name, description, sort_order
+     FROM glossary
+     ORDER BY sort_order, id`
+  );
+  return result.rows;
+}
+
+export async function createGlossaryEntry(
+  data: { code: string; name: string; description?: string | null; sort_order?: number },
+  userId?: string
+): Promise<GlossaryRow> {
+  const result = await query<GlossaryRow>(
+    `INSERT INTO glossary (code, name, description, sort_order)
+     VALUES ($1, $2, $3, $4)
+     RETURNING *`,
+    [data.code, data.name, data.description || null, data.sort_order ?? 0]
+  );
+
+  if (userId) {
+    await writeAuditLog(userId, 'create', 'glossary', String(result.rows[0].id), null, result.rows[0]);
+  }
+
+  return result.rows[0];
+}
+
+export async function updateGlossaryEntry(
+  id: number,
+  data: { code?: string; name?: string; description?: string | null; sort_order?: number },
+  userId?: string
+): Promise<GlossaryRow | null> {
+  const oldResult = await query<GlossaryRow>(
+    `SELECT * FROM glossary WHERE id = $1`,
+    [id]
+  );
+  const oldRow = oldResult.rows[0];
+  if (!oldRow) return null;
+
+  const setClauses: string[] = [];
+  const params: unknown[] = [];
+  let paramIndex = 1;
+
+  if (data.code !== undefined) {
+    setClauses.push(`code = $${paramIndex++}`);
+    params.push(data.code);
+  }
+  if (data.name !== undefined) {
+    setClauses.push(`name = $${paramIndex++}`);
+    params.push(data.name);
+  }
+  if (data.description !== undefined) {
+    setClauses.push(`description = $${paramIndex++}`);
+    params.push(data.description);
+  }
+  if (data.sort_order !== undefined) {
+    setClauses.push(`sort_order = $${paramIndex++}`);
+    params.push(data.sort_order);
+  }
+
+  if (setClauses.length === 0) return oldRow;
+
+  params.push(id);
+
+  const result = await query<GlossaryRow>(
+    `UPDATE glossary
+     SET ${setClauses.join(', ')}
+     WHERE id = $${paramIndex}
+     RETURNING *`,
+    params
+  );
+
+  if (userId && result.rows[0]) {
+    await writeAuditLog(userId, 'update', 'glossary', String(id), oldRow, result.rows[0]);
+  }
+
+  return result.rows[0] || null;
+}
+
+export async function deleteGlossaryEntry(
+  id: number,
+  userId?: string
+): Promise<void> {
+  const oldResult = await query<GlossaryRow>(
+    `SELECT * FROM glossary WHERE id = $1`,
+    [id]
+  );
+  const oldRow = oldResult.rows[0];
+
+  await query(`DELETE FROM glossary WHERE id = $1`, [id]);
+
+  if (userId && oldRow) {
+    await writeAuditLog(userId, 'delete', 'glossary', String(id), oldRow, null);
   }
 }
