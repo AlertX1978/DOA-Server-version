@@ -1,0 +1,92 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.server.name }}
+  namespace: {{ .Release.Namespace }}
+  labels:
+    app: {{ .Values.server.name }}
+spec:
+  replicas: {{ .Values.server.replicaCount }}
+  selector:
+    matchLabels:
+      app: {{ .Values.server.name }}
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.server.name }}
+    spec:
+      serviceAccountName: {{ .Values.serviceAccount.name }}
+      securityContext:
+        {{- toYaml .Values.securityContext | nindent 8 }}
+      containers:
+      - name: {{ .Values.server.name }}
+        image: {{ .Values.global.registry }}/{{ .Values.server.image.repository }}:{{ .Values.server.image.tag }}
+        imagePullPolicy: {{ .Values.server.image.pullPolicy }}
+        ports:
+        - containerPort: {{ .Values.server.port }}
+          name: http
+        env:
+        - name: NODE_ENV
+          value: {{ .Values.server.env.NODE_ENV }}
+        - name: LOG_LEVEL
+          value: {{ .Values.server.env.LOG_LEVEL }}
+        - name: DATABASE_URL
+          valueFrom:
+            secretKeyRef:
+              name: taqa-doa-secrets
+              key: database-url
+        - name: AZURE_TENANT_ID
+          valueFrom:
+            secretKeyRef:
+              name: taqa-doa-secrets
+              key: azure-tenant-id
+        - name: AZURE_CLIENT_ID
+          valueFrom:
+            secretKeyRef:
+              name: taqa-doa-secrets
+              key: azure-client-id
+        - name: AZURE_CLIENT_SECRET
+          valueFrom:
+            secretKeyRef:
+              name: taqa-doa-secrets
+              key: azure-client-secret
+        - name: CORS_ORIGIN
+          valueFrom:
+            configMapKeyRef:
+              name: taqa-doa-config
+              key: cors-origin
+        resources:
+          {{- toYaml .Values.server.resources | nindent 10 }}
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: {{ .Values.server.port }}
+          initialDelaySeconds: 30
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 3
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: {{ .Values.server.port }}
+          initialDelaySeconds: 10
+          periodSeconds: 5
+          timeoutSeconds: 3
+          failureThreshold: 2
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Values.server.name }}
+  namespace: {{ .Release.Namespace }}
+  labels:
+    app: {{ .Values.server.name }}
+spec:
+  type: ClusterIP
+  ports:
+  - port: 80
+    targetPort: {{ .Values.server.port }}
+    protocol: TCP
+    name: http
+  selector:
+    app: {{ .Values.server.name }}

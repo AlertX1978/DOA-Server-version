@@ -7,6 +7,9 @@ import {
   getAuditLog,
   getThresholdsWithApprovers,
   updateThreshold,
+  createThreshold,
+  deleteThreshold,
+  replaceThresholdApprovers,
   getRoles,
   updateRole,
   createRole,
@@ -14,6 +17,10 @@ import {
   updateCountryRisk,
   addCountry,
   deleteCountry,
+  getGlossary,
+  createGlossaryEntry,
+  updateGlossaryEntry,
+  deleteGlossaryEntry,
 } from '../services/admin.service';
 import { clearCalculatorCache } from '../services/calculator.service';
 
@@ -63,6 +70,48 @@ const updateThresholdSchema = z.object({
   max_markup: z.number().nullable().optional(),
   max_gross_margin: z.number().nullable().optional(),
   condition_text: z.string().nullable().optional(),
+  sort_order: z.number().int().optional(),
+});
+
+const createThresholdSchema = z.object({
+  threshold_id: z.string().min(1, 'Threshold ID is required'),
+  type: z.enum(['high_risk', 'non_binding', 'commercial', 'direct_sales', 'direct_sales_markup', 'epf']),
+  name: z.string().min(1, 'Name is required'),
+  code: z.string().min(1, 'Code is required'),
+  min_value: z.number().nullable().optional(),
+  max_value: z.number().nullable().optional(),
+  min_capex: z.number().nullable().optional(),
+  max_capex: z.number().nullable().optional(),
+  min_markup: z.number().nullable().optional(),
+  max_markup: z.number().nullable().optional(),
+  max_gross_margin: z.number().nullable().optional(),
+  condition_text: z.string().nullable().optional(),
+  notes: z.string().nullable().optional(),
+  sort_order: z.number().int().optional(),
+});
+
+const thresholdApproverSchema = z.object({
+  approvers: z.array(
+    z.object({
+      role_id: z.number().int(),
+      action: z.string().regex(/^[IREXN]\d*\*?$/, 'Action must match pattern [IREXN][0-9]*[*]?'),
+      label: z.string().min(1, 'Label is required'),
+      sort_order: z.number().int().default(0),
+    })
+  ),
+});
+
+const createGlossarySchema = z.object({
+  code: z.string().length(1, 'Code must be a single character'),
+  name: z.string().min(1, 'Name is required'),
+  description: z.string().nullable().optional(),
+  sort_order: z.number().int().optional(),
+});
+
+const updateGlossarySchema = z.object({
+  code: z.string().length(1).optional(),
+  name: z.string().min(1).optional(),
+  description: z.string().nullable().optional(),
   sort_order: z.number().int().optional(),
 });
 
@@ -411,6 +460,190 @@ export async function deleteCountryHandler(req: Request, res: Response, next: Ne
     res.json({
       status: 'ok',
       message: `Country with id ${id} deleted`,
+    });
+  } catch (error) {
+    next(error);
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Thresholds – create, delete, replace approvers
+// ---------------------------------------------------------------------------
+
+/**
+ * POST /api/v1/admin/thresholds
+ */
+export async function createThresholdHandler(req: Request, res: Response, next: NextFunction): Promise<void> {
+  try {
+    const parsed = createThresholdSchema.safeParse(req.body);
+    if (!parsed.success) {
+      throw new ValidationError('Invalid threshold data', parsed.error.flatten());
+    }
+
+    const userId = await resolveUserId(req);
+    const threshold = await createThreshold(parsed.data, userId ?? undefined);
+
+    clearCalculatorCache();
+
+    res.status(201).json({
+      status: 'ok',
+      data: threshold,
+    });
+  } catch (error: any) {
+    if (error?.code === '23505') {
+      return next(new ConflictError(`Threshold with id "${req.body.threshold_id}" already exists`));
+    }
+    next(error);
+  }
+}
+
+/**
+ * DELETE /api/v1/admin/thresholds/:id
+ */
+export async function deleteThresholdHandler(req: Request, res: Response, next: NextFunction): Promise<void> {
+  try {
+    const id = parseInt(req.params.id as string, 10);
+    if (isNaN(id)) {
+      throw new ValidationError('Invalid threshold ID');
+    }
+
+    const userId = await resolveUserId(req);
+    await deleteThreshold(id, userId ?? undefined);
+
+    clearCalculatorCache();
+
+    res.json({
+      status: 'ok',
+      data: { message: `Threshold with id ${id} deleted` },
+    });
+  } catch (error) {
+    next(error);
+  }
+}
+
+/**
+ * PUT /api/v1/admin/thresholds/:id/approvers
+ */
+export async function replaceThresholdApproversHandler(req: Request, res: Response, next: NextFunction): Promise<void> {
+  try {
+    const id = parseInt(req.params.id as string, 10);
+    if (isNaN(id)) {
+      throw new ValidationError('Invalid threshold ID');
+    }
+
+    const parsed = thresholdApproverSchema.safeParse(req.body);
+    if (!parsed.success) {
+      throw new ValidationError('Invalid approver data', parsed.error.flatten());
+    }
+
+    const userId = await resolveUserId(req);
+    const approvers = await replaceThresholdApprovers(id, parsed.data.approvers, userId ?? undefined);
+
+    clearCalculatorCache();
+
+    res.json({
+      status: 'ok',
+      data: approvers,
+    });
+  } catch (error) {
+    next(error);
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Glossary
+// ---------------------------------------------------------------------------
+
+/**
+ * GET /api/v1/admin/glossary
+ */
+export async function listGlossaryHandler(req: Request, res: Response, next: NextFunction): Promise<void> {
+  try {
+    const entries = await getGlossary();
+
+    res.json({
+      status: 'ok',
+      data: entries,
+    });
+  } catch (error) {
+    next(error);
+  }
+}
+
+/**
+ * POST /api/v1/admin/glossary
+ */
+export async function createGlossaryHandler(req: Request, res: Response, next: NextFunction): Promise<void> {
+  try {
+    const parsed = createGlossarySchema.safeParse(req.body);
+    if (!parsed.success) {
+      throw new ValidationError('Invalid glossary data', parsed.error.flatten());
+    }
+
+    const userId = await resolveUserId(req);
+    const entry = await createGlossaryEntry(parsed.data, userId ?? undefined);
+
+    res.status(201).json({
+      status: 'ok',
+      data: entry,
+    });
+  } catch (error: any) {
+    if (error?.code === '23505') {
+      return next(new ConflictError(`Glossary entry with code "${req.body.code}" already exists`));
+    }
+    next(error);
+  }
+}
+
+/**
+ * PUT /api/v1/admin/glossary/:id
+ */
+export async function updateGlossaryHandler(req: Request, res: Response, next: NextFunction): Promise<void> {
+  try {
+    const id = parseInt(req.params.id as string, 10);
+    if (isNaN(id)) {
+      throw new ValidationError('Invalid glossary ID');
+    }
+
+    const parsed = updateGlossarySchema.safeParse(req.body);
+    if (!parsed.success) {
+      throw new ValidationError('Invalid glossary data', parsed.error.flatten());
+    }
+
+    const userId = await resolveUserId(req);
+    const updated = await updateGlossaryEntry(id, parsed.data, userId ?? undefined);
+    if (!updated) {
+      throw new NotFoundError(`Glossary entry with id ${id} not found`);
+    }
+
+    res.json({
+      status: 'ok',
+      data: updated,
+    });
+  } catch (error: any) {
+    if (error?.code === '23505') {
+      return next(new ConflictError(`Glossary entry with code "${req.body.code}" already exists`));
+    }
+    next(error);
+  }
+}
+
+/**
+ * DELETE /api/v1/admin/glossary/:id
+ */
+export async function deleteGlossaryHandler(req: Request, res: Response, next: NextFunction): Promise<void> {
+  try {
+    const id = parseInt(req.params.id as string, 10);
+    if (isNaN(id)) {
+      throw new ValidationError('Invalid glossary ID');
+    }
+
+    const userId = await resolveUserId(req);
+    await deleteGlossaryEntry(id, userId ?? undefined);
+
+    res.json({
+      status: 'ok',
+      data: { message: `Glossary entry with id ${id} deleted` },
     });
   } catch (error) {
     next(error);
