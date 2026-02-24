@@ -109,12 +109,11 @@ function BrowseTreeNode({ node, level, expandedSections, toggleSection, theme }:
   const hasChildren = node.children && node.children.length > 0;
   const indentPx = level * 20;
 
-  // Count all descendant items
-  const countDescendants = (n: BrowseTreeNodeData): number => {
-    if (!n.children || n.children.length === 0) return 1;
-    return n.children.reduce((sum, child) => sum + countDescendants(child), 0);
+  // Count all items in subtree (node itself + all descendants)
+  const countSubtree = (n: BrowseTreeNodeData): number => {
+    return 1 + (n.children ? n.children.reduce((sum, child) => sum + countSubtree(child), 0) : 0);
   };
-  const descendantCount = countDescendants(node);
+  const descendantCount = countSubtree(node);
 
   // Chevron SVG used by both root and non-root nodes
   const chevron = (
