@@ -1,4 +1,5 @@
 import { Router } from 'express';
+import rateLimit from 'express-rate-limit';
 import { requireAuth, requireAdmin } from '../middleware/auth';
 import {
   listDOAItemsHandler,
@@ -11,7 +12,10 @@ import {
 
 const router = Router();
 
+const adminRateLimit = rateLimit({ windowMs: 60_000, max: 100 });
+
 // All routes require authentication + admin role
+router.use(adminRateLimit);
 router.use(requireAuth);
 router.use(requireAdmin);
 
