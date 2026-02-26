@@ -1,0 +1,21 @@
+services:
+  server:
+    image: taqa-doa-server:latest
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+      target: development
+
+  client:
+    image: taqa-doa-client:latest
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+      target: development
+
+  editor:
+    image: taqa-doa-editor:latest
+    build:
+      context: ./editor
+      dockerfile: Dockerfile
+      target: development

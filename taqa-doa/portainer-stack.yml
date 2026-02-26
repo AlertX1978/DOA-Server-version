@@ -1,0 +1,96 @@
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: taqa_doa_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: taqa_doa
+      POSTGRES_USER: doa_user
+      POSTGRES_PASSWORD: doa_dev_password
+      TZ: Asia/Dubai
+    ports:
+      - "5433:5432"
+    volumes:
+      - /Volume1/public/docker/taqa-doa/db:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U doa_user -d taqa_doa"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    networks:
+      - taqa_doa_net
+
+  server:
+    image: taqa-doa-server:latest
+    container_name: taqa_doa_server
+    restart: unless-stopped
+    user: "root"
+    command: ["sh", "entrypoint.sh"]
+    environment:
+      NODE_ENV: development
+      DATABASE_URL: postgresql://doa_user:doa_dev_password@db:5432/taqa_doa
+      PORT: 3000
+      CORS_ORIGIN: http://localhost:5175
+      AZURE_TENANT_ID: ${AZURE_TENANT_ID:-placeholder}
+      AZURE_CLIENT_ID: ${AZURE_CLIENT_ID:-placeholder}
+      AZURE_CLIENT_SECRET: ${AZURE_CLIENT_SECRET:-placeholder}
+      TZ: Asia/Dubai
+    ports:
+      - "3001:3000"
+    volumes:
+      - /Volume1/public/docker/taqa-doa/server/src:/app/src
+      - /Volume1/public/docker/taqa-doa/server/scripts:/app/scripts
+      - /Volume1/public/docker/taqa-doa/server/migrations:/app/migrations
+      - /Volume1/public/docker/taqa-doa/server/entrypoint.sh:/app/entrypoint.sh
+      - /app/node_modules
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - taqa_doa_net
+
+  client:
+    image: taqa-doa-client:latest
+    container_name: taqa_doa_client
+    restart: unless-stopped
+    user: "root"
+    environment:
+      VITE_API_URL: http://localhost:3001/api/v1
+      VITE_AZURE_CLIENT_ID: ${VITE_AZURE_CLIENT_ID:-placeholder}
+      VITE_AZURE_TENANT_ID: ${VITE_AZURE_TENANT_ID:-placeholder}
+      VITE_AZURE_REDIRECT_URI: http://localhost:5175
+      TZ: Asia/Dubai
+    ports:
+      - "5175:5173"
+    volumes:
+      - /Volume1/public/docker/taqa-doa/client/src:/app/src
+      - /app/node_modules
+    depends_on:
+      - server
+    networks:
+      - taqa_doa_net
+
+  editor:
+    image: taqa-doa-editor:latest
+    container_name: taqa_doa_editor
+    restart: unless-stopped
+    user: "root"
+    environment:
+      VITE_API_URL: http://localhost:3001/api/v1
+      VITE_AZURE_CLIENT_ID: ${VITE_AZURE_CLIENT_ID:-placeholder}
+      VITE_AZURE_TENANT_ID: ${VITE_AZURE_TENANT_ID:-placeholder}
+      VITE_AZURE_REDIRECT_URI: http://localhost:5176
+      TZ: Asia/Dubai
+    ports:
+      - "5176:5173"
+    volumes:
+      - /Volume1/public/docker/taqa-doa/editor/src:/app/src
+      - /app/node_modules
+    depends_on:
+      - server
+    networks:
+      - taqa_doa_net
+
+networks:
+  taqa_doa_net:
+    driver: bridge
