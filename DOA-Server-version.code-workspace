@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "\\\\TNAS-AT\\public\\docker\\taqa-doa-tnas"
+		}
+	],
+	"settings": {}
+}
